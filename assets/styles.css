@@ -6,6 +6,21 @@ body {
     color: white;
 }
 
+h1 {
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: white;
+
+}
+
+h2 {
+    color: black;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
 .acmecup {
     display: flex;
     flex: auto;
