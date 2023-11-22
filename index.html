@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judit's Coffee Den</title>
+    <title>Judit’s Coffee Den</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: black;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-   <div class="cover-flow-menu">
-        <div class="item"><img href=" "></div>
-        <div class="item"><img href=" "></div>
-        <div class="item"><img href=" "></div>
-        <div class="item"><img href=" "></div>
-    </div>
-    </body>
-    </body>
+    <header>
+        <h1>Judit’s Coffee Den</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#tips">Home Brewing Tips</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#courses">Courses</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <!-- Your about me content goes here -->
+    </section>
+
+    <section id="tips">
+        <h2>Home Brewing Tips</h2>
+        <!-- Your brewing tips content goes here, including videos and large photos of coffee -->
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <!-- Your FAQ content goes here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Your contact form goes here -->
+    </section>
+
+    <section id="courses">
+        <h2>Courses</h2>
+        <!-- Your course calendar and booking information goes here -->
+    </section>
+
+    <footer>
+        &copy; 2023 Judit’s Coffee Den
+    </footer>
 </body>
+
 </html>
