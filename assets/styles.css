@@ -1,14 +1,24 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('background-image.jpg') no-repeat center center fixed;
+    background: url() no-repeat center center fixed;
     background-size: cover;
     color: white;
+}
+
+.acmecup {
+    display: flex;
+    flex: auto;
+    margin: 0 0;
 }
 
 header {
     text-align: center;
     padding: 50px;
+    color: black;
+    display:flex;
+    background: url(../assets/images/untitled-1030407-Edit.jpg) center center/fixed;
+    flex-wrap: wrap;
 }
 
 nav {
