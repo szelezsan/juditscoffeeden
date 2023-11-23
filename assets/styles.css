@@ -1,9 +1,17 @@
+
+head{
+    background: url(assets/images/1.jpg);
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url() no-repeat center center fixed;
     background-size: cover;
     color: white;
+}
+.transparent-text-background{
+    background: rgb(rgb(0, 0, 0, 0.7);
+    color:  black;
+    padding: 10px;
 }
 
 nav {
@@ -11,7 +19,7 @@ nav {
     justify-content: space-around;
     background: black;
     padding: 15px;
-    position: relative
+    position: relative;
     top: 0;
     width: 100%;
     z-index: 1000;

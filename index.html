@@ -2,33 +2,46 @@
 <html lang="en">
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judit’s Coffee Den</title>
+    <title>Judit’s Coffee Den
+        <link rel="image" type="image/jpg" href="/assets/images/1.jpg">
+    </title>
     <link  rel="stylesheet" href="styles.css">
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-image: url(../juditscoffeeden/assets/images/untitled-1030407-Edit-2.jpg) no-repeat center center fixed;
-            background: orange;
+            background: url(assets/images/coffee\ and\ pastry.jpg) center center, fixed;
             background-size: cover;
-            color: white;
+            color: black;
+            margin-bottom: 0;
+            margin: 20,20;
         }
 
+    
+
         header {
+            font-family:monospace;
+            font-size: 20px;
             text-align: center;
-            padding: 50px;
-            background: darkgrey;
+            color: black;
+            width: 100%;
+            height: 60px;
         }
 
         nav {
             display: flex;
             justify-content: space-around;
-            background: black;
+            background: rgb(243, 140, 6, 0.7);
             padding: 15px;
             position: relative;
-            top: 0
+            top: 0;
             width: 100%;
             z-index: 1000;
         }
@@ -38,11 +51,7 @@
             text-decoration: none;
             font-size: 20px;
         }
-
-        section {
-            padding: 50px;
-        }
-
+        
         footer {
             text-align: center;
             padding: 20px;
@@ -65,7 +74,7 @@
         <a href="#contact">Contact</a>
         <a href="#courses">Courses</a>
     </nav>
-
+    <main class="transparent-text-background">
     <section id="home">
         <h2>Home</h2>
         <!-- Your brewing tips content goes here, including videos and large photos of coffee -->
@@ -114,6 +123,7 @@
         <h2>Courses</h2>
         <!-- Your course calendar and booking information goes here -->
     </section>
+</main>
 
     <footer>
         &copy; 2023 Judit’s Coffee Den
