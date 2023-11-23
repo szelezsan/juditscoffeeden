@@ -17,6 +17,16 @@ nav {
     z-index: 1000;
 }
 
+.navbar.fixed-top {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.navbar.fixed-top a {
+    color: white;
+}
+
 nav a {
     color: white;
     text-decoration: none;
