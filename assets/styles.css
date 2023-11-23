@@ -1,7 +1,13 @@
 
-head{
-    background: url(assets/images/1.jpg);
-}
+header{
+            display: flex;
+            justify-content: space-around;
+            background: rgb(243, 140, 6, 0.7);
+            padding: 15px;
+            position: top;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,13 +17,13 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    background: black;
-    padding: 15px;
-    position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+            justify-content: space-around;
+            background: rgb(243, 140, 6, 0.7);
+            padding: 15px;
+            position: relative;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
 }
 
 .navbar.fixed-top {
