@@ -19,6 +19,13 @@ body {
                 padding-bottom: 0;
             }
 
+.bwjudit {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    display:flex;
+}
+
 nav {
     display: flex;
             justify-content: space-around;
