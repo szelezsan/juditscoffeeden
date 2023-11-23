@@ -15,9 +15,9 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            margin: 0;
+            margin: 0cm;
             font-family: Arial, sans-serif;
-            background: url(assets/images/untitled-1030441.jpg) no-repeat center center, fixed;
+            background: url(assets/images/000006.JPG) no-repeat center center, fixed;
             background-size: cover;
             color: black;
             margin-bottom: 0;
@@ -29,17 +29,20 @@
             max-width: 100%;
             height: auto;
             transition: transform 0.3s ease-in-out;
+            orientation: left;
        }
-
+       header{
+        background:rgb(243, 140, 6, 0.7);
+        width: 100%;
+       }
         header h1{
             display: flex;
             justify-content: center;
-            background: rgb(243, 140, 6, 0.7);
             padding: 15px;
             position: top;
             top: 0;
             height: 20px;
-            width: auto;
+            max-width: 100%;
             z-index: 1000;  
         }
 
@@ -70,22 +73,25 @@
             margin: 0, 0;
             padding: 10;
         }
-        main > p {
+        p {
             font-size: 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: black;
             background: rgb(255, 255, 255, 0.6);
-            text-align: center;
-            padding: 30, 30, 30, 30;
-            margin-left: 10cm;
-            margin-right: 10cm;
+            text-align:justify;
+            padding: 75px;;
+            margin: 4cm;
             background-size: cover;
+            image-orientation: middle;
         }
     .bwjudit {
-        position: fixed;
-        height: 5cm;
-        width: auto;
+        position:relative;
+        height: auto;
+        width: 100%;
         display:flex;
+        padding-left: 10px;
+        padding-right: 110px;
+        background: rgb(255, 255, 255, 0.6);
 }
 
     </style>
@@ -105,16 +111,13 @@
         <a href="gallery.html">Gallery</a>
     </nav>
     <main>
-        <p id="home">
-            <img  class="bwjudit" src="assets/images/000006.JPG" alt="Black and white photo of Judit">
-             Wecome to Judit's Coffee Den. You are probably here, because you want to learn more about coffee.
-        <a href="homebrew-videos.html">You can start from here</a></p>
-        <p>If you are looking for propfessional barista training, you can send me a message with specifics and I will get back to you as soon as possible.</p>
+        <p>Wecome to Judit's Coffee Den.
+        You are probably here, because you want to learn more about coffee.<a href="homebrew-videos.html">You can start from here. 
+        If you are looking for professional barista training, you can send me a message with specifics and I will get back to you as soon as possible.<a href="contact.html"
+        </p>
     </main>
-
-    <footer>
-        &copy; 2023 Judit’s Coffee Den
-    </footer>
 </body>
-
+<footer>
+    &copy; 2023 Judit’s Coffee Den
+</footer>
 </html>
