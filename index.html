@@ -11,14 +11,14 @@
 
     <title>Judit’s Coffee Den</title>
     <style>
-        body {
+       body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: url(assets/images/coffee\ and\ pastry.jpg) center center, fixed;
+            background: url(assets/images/untitled-1030441.jpg) no-repeat center center, fixed;
             background-size: cover;
             color: black;
             margin-bottom: 0;
-            margin: 20,20;
+            padding-bottom: 0;
         }
 
        section img {
@@ -28,13 +28,15 @@
             transition: transform 0.3s ease-in-out;
        }
 
-        header {
-            font-family:monospace;
-            font-size: 20px;
-            text-align: center;
-            color: black;
+        header h1{
+            display: flex;
+            justify-content: space-around;
+            background: rgb(243, 140, 6, 0.7);
+            padding: 15px;
+            position: top;
+            top: 0;
             width: 100%;
-            height: 60px;
+            z-index: 1000;  
         }
 
         nav {
@@ -56,9 +58,18 @@
         
         footer {
             text-align: center;
-            padding: 20px;
-            background: rgb(0, 0, 0, 0.5);
+            background: rgb(0, 0, 0, 0.7);
             color: white;
+            width: 100%;
+        }
+        main > p {
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            background: rgb(255, 255, 255, 0.6);
+            text-align: center;
+            margin: 30, 30, 30, 30;
+            background-size: cover;
         }
     </style>
 </head>
@@ -78,7 +89,7 @@
     </nav>
     <main>
         <p id="home">Wecome to Judit's Coffee Den. You are probably here, because you want to learn more about coffee.
-        Click <a href="homebrew-videos.html">Click here</a> here to start for home brewing.</p>
+        <a href="homebrew-videos.html">You can start from here</a></p>
     </main>
 
     <footer>

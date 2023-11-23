@@ -8,12 +8,16 @@ header{
             top: 0;
             width: 100%;
             z-index: 1000;
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-size: cover;
-    color: white;
 }
+body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background: url(assets/images/untitled-1030441.jpg) no-repeat center center, fixed;
+                background-size: cover;
+                color: black;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
 
 nav {
     display: flex;
@@ -58,17 +62,27 @@ section img:hover {
 
 footer {
     text-align: center;
-    padding: 20px;
-    background: rgb(rgb(0, 0, 0, 0.7);
+    background: rgb(0, 0, 0, 0.7);
     color: white;
     width: 100%;
-    flex: 1;
+    flex: overflow;
 }
-img {
-    display: flex;
+
+#gallery {
+    display:table-column;
     max-width: 100%;
     height: auto;
     transition: transform 0.3s ease-in-out;
+    padding:0;
+}
+
+main > p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background: rgb(255, 255, 255, 0.6);
+    text-align: center;
+    margin: 30, 30, 30, 30;
 }
 
 /* Styling gallery.html */
