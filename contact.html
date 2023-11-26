@@ -7,97 +7,136 @@
     <title>Contact Me</title>
     <style>
         body {
-             display: flex;
-             flex-direction: column;
-             min-height: 100vh;
-             margin: 0cm;
-             font-family: Arial, sans-serif;
-             background: url(assets/images/untitled-1030441.jpg) no-repeat center center, fixed;
-             background-size: cover;
-             color: black;
-             margin-bottom: 0;
-             padding-bottom: 0;
-         }
- 
-        section img {
-             display: flex;
-             max-width: 100%;
-             height: auto;
-             transition: transform 0.3s ease-in-out;
-             orientation: left;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0cm;
+            font-family: Arial, sans-serif;
+            background: url(assets/images/untitled-1030441.jpg) no-repeat center center, fixed;
+            background-size: cover;
+            color: black;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
-        header{
-         background:rgb(243, 140, 6, 0.7);
-         width: 100%;
-         color: white;
+
+       section img {
+            display: flex;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+            orientation: left;
+       }
+       header{
+        background:rgb(243, 140, 6, 0.7);
+        width: 100%;
+        color: white;
+       }
+        header h1{
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            position: top;
+            top: 0;
+            height: 20px;
+            max-width: 100%;
+            z-index: 1000;  
         }
-         header h1{
-             display: flex;
-             justify-content: center;
-             padding: 15px;
-             position: top;
-             top: 0;
-             height: 20px;
-             max-width: 100%;
-             z-index: 1000;  
-         }
- 
-         nav {
-             display: flex;
-             justify-content: space-around;
-             color: white;
-             background: rgb(243, 140, 6, 0.7);
-             padding: 15px;
-             position: relative;
-             top: 0;
-             width: 100%;
-             z-index: 1000;
-         }
- 
-         nav a {
-             color: white;
-             text-decoration: none;
-             font-size: 20px;
-         }
-         
-         footer {
-             text-align: center;
-             background: rgb(0, 0, 0, 0.7);
-             color: white;
-             max-height: 30px;
-             width: 100%;
-             flex: 1;
-             margin: 0, 0;
-             padding: 10;
-         }
-         p {
-             font-size: 20px;
-             font-family: Verdana, Geneva, Tahoma, sans-serif;
-             color: black;
-             background: rgb(255, 255, 255, 0.6);
-             text-align:justify;
-             padding: 50px;;
-             margin: 2cm;
-             background-size: cover;
-         }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            background: rgb(243, 140, 6, 0.7);
+            padding: 15px;
+            position: relative;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            background: rgb(0, 0, 0, 0.7);
+            color: white;
+            max-height: 30px;
+            width: 100%;
+            flex: 1;
+            margin: 0, 0;
+            padding: 10;
+        }
+        p {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+            background: rgb(255, 255, 255, 0.6);
+            text-align:justify;
+            padding: 50px;;
+            margin: 2cm;
+            background-size: cover;
+        }
      </style>
 </head>
+<header>
+    <h1>Judit’s Coffee Den</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="tips.html">Tips</a>
+    <a href="homebrew-videos.html">Videos</a>
+    <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
 
 <body>
-    <div class="contact-form">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-    
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-</body>
+        <link href="contact-form.css" rel="stylesheet">
+        
+        <div class="fcf-body">
+        
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Contact us</h3>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+        
+                <div class="fcf-credit" id="fcf-credit">
+                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+                </div>
+        
+            </form>
+            </div>
+        
+        </div>
+    </body>
 </html>
