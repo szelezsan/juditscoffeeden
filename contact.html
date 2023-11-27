@@ -144,25 +144,34 @@
             <br />
             <div class="radio-buttons">
               <div>
-                <label for="road">Professional </label>
+                <label for="professional">Professional </label>
                 <input
                   type="radio"
-                  name="running_preference"
-                  id="road"
-                  value="road"
+                  name="messagetype"
+                  id="professional"
+                  value="professional"
                   required
                   checked
                 />
               </div>
               <div>
-                <label for="trail">Non Professional</label>
+                <label for="nonprofessional">Non Professional</label>
                 <input
                   type="radio"
-                  name="running_preference"
-                  id="trail"
-                  value="trail"
+                  name="messagetype"
+                  id="nonprofessional"
+                  value="nonprofessional"
                   required
                 />
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <input
+                    type="text-box"
+                    name="message"
+                    id="message"
+                    value="Your message"
+                    required>
               </div>
             </div>
             <button type="submit" class="join-button">Send</button>
