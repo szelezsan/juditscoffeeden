@@ -41,6 +41,12 @@
             max-width: 100%;
             z-index: 1000;  
         }
+        
+        h2{
+            width: 100%;
+            color: white;
+            text-align: center;
+         }
 
         nav {
             display: flex;
@@ -84,60 +90,85 @@
 </head>
 <header>
     <h1>Judit’s Coffee Den</h1>
+    <h2>Contact Me</h2>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About Me</a>
-    <a href="tips.html">Tips</a>
+    <a href="Tips.html">Tips</a>
     <a href="homebrew-videos.html">Videos</a>
-    <a href="contact.html">Contact</a>
     <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
 </nav>
 
-<body>
-        <link href="contact-form.css" rel="stylesheet">
-        
-        <div class="fcf-body">
-        
-            <div id="fcf-form">
-            <h3 class="fcf-h3">Contact us</h3>
-        
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-                </div>
-        
-                <div class="fcf-credit" id="fcf-credit">
-                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-                </div>
-        
-            </form>
+
+    <!-- Main content -->
+    <body>
+      <main>
+        <section id="contact">
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <h2>
+              <i class="fa-solid fa-heartbeat"></i> Send me a message!
+            </h2>
+            <label for="first_name">First Name</label>
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              class="text-input"
+              required
+            />
+            <br />
+            <label for="last_name">Last Name</label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              class="text-input"
+              required
+            />
+            <br />
+            <label for="email_address">Email Address</label>
+            <input
+              type="email"
+              name="email_address"
+              id="email_address"
+              class="text-input"
+              required
+            />
+            <br />
+            <div class="radio-buttons">
+              <div>
+                <label for="road">Professional </label>
+                <input
+                  type="radio"
+                  name="running_preference"
+                  id="road"
+                  value="road"
+                  required
+                  checked
+                />
+              </div>
+              <div>
+                <label for="trail">Non Professional</label>
+                <input
+                  type="radio"
+                  name="running_preference"
+                  id="trail"
+                  value="trail"
+                  required
+                />
+              </div>
             </div>
-        
-        </div>
+            <button type="submit" class="join-button">Send</button>
+          </form>
+        </section>
+      </main>
     </body>
  <footer>
     &copy; 2023 Judit’s Coffee Den
