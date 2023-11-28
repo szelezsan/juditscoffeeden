@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <link  rel="stylesheet" href="assets/styles.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,11 +17,11 @@
 
 <body id="home">
     <header>
-        <h1>Judit’s Coffee Den</h1>
-        <h2>Home</h2>
+        <h1 style="font-size: 2vw;">Judit’s Coffee Den</h1>
+        <h2 style="font-size:1vw">Home</h2>
     </header>
  
-    <nav>
+    <nav class="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
         <a href="tips.html">Tips</a>
@@ -26,7 +29,7 @@
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <main class="welcome">
+    <main class="responsive">
         <p>Wecome to Judit's Coffee Den.
         You are probably here, because you want to learn more about coffee.<a href="homebrew-videos.html">You can start from here.</a>
 
@@ -101,7 +104,7 @@
           .text {font-size: 11px}
         }
         </style>
-        
+        <div class="responsive">
         <div class="slideshow-container">
         
         <div class="mySlides fade">
@@ -127,7 +130,7 @@
             <img src="assets/images/v60 kettle.jpg" style="width:100%">
             <div class="text">Photo: Gabor Labath</div>
         </div>
-
+    </div>
         <br>
         
         <div style="text-align:center">
@@ -161,5 +164,9 @@
 </body>
 <footer>
     &copy; 2023 Judit’s Coffee Den
+    <!-- Add font awesome icons -->
+    <div><a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram"></a>
+    </div>
 </footer>
 </html>
