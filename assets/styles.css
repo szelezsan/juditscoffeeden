@@ -33,9 +33,12 @@ nav a {
     font-size: 20px;
 }
 
+body, html {
+    height: 100%;
+}
 
 body {
-    background-image:url(assets/images/coffee and guitar.jpg);
+    background-image:url(assets/images/coffee&guitar.jpg) no-repeat center center;
     margin: 0;
     font-family: Arial, sans-serif;
     color: black;
@@ -63,6 +66,8 @@ body {
     height: auto;
     padding:0;
 }
+
+
 main {
     background: rgb(255, 136, 1, 0.5);
     color: white;
@@ -73,7 +78,6 @@ main {
     padding: 60px;
     text-align:center;
     max-width:900px;
-    display: flex;
 }
 
 main > p {
@@ -94,8 +98,9 @@ footer {
     color: white;
     text-align: center;
       }
+
 /* Social media icon styling */
- /* Style all font awesome icons */
+/* Style all font awesome icons */
  .fa {
     padding: 20px;
     font-size: 30px;
@@ -133,7 +138,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    justify-content: center center;
+    justify-content: center;
 }
 
 .contact-form label {
@@ -164,10 +169,6 @@ footer {
 .contact-form button:hover {
     background-color: #fda501;
 }
-
-/* Slideshow styiling" */
-
-{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
