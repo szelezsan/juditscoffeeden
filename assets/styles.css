@@ -107,6 +107,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center center;
 }
 
 .contact-form label {
@@ -116,7 +117,6 @@ footer {
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
@@ -151,10 +151,7 @@ footer {
     height: 300px;
   }
   
-/* Hide the images by default */
-.mySlides {
-    display: none;
-  }
+
   
   /* Next & previous buttons */
   .prev, .next {
