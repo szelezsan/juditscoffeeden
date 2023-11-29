@@ -16,7 +16,7 @@ head, header h1, h2{
 /* Change the color of nav links on hover */
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 145, 0);
+    background:rgb(243, 140, 6, 0.7);
   }
 
 /* Navigation styling */
@@ -27,7 +27,7 @@ nav {
     justify-content:space-around;
     position:fixed;
     color: white;
-    background: rgb(243, 140, 6, 0.7);
+    background:rgb(243, 140, 6, 0.7);
     padding: 15px;
     position: relative;
     top: 0;
@@ -63,14 +63,14 @@ body, html {
   }
 
 body {
+    background-image: url(assets/images/coffee&guitar.jpg)center, center, no-repeat;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: black;
     margin-bottom: 0;
     padding-bottom: 0;
     color:white;
 }
-
+/* Photo of myslef in about.html */
 #selfie {
     max-width: 400px;
     justify-content: center;
@@ -85,15 +85,16 @@ body {
 }
 
 main {
-    background: rgb(255, 136, 1, 0.5);
+    background:rgba(0, 0, 0, 0.4);
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    justify-content: center;
+   
     margin: 60px;
     padding: 60px;
     text-align:center;
-    max-width:900px;
+    max-width:1200px;
+    display: flex;
 }
 
 footer {
@@ -102,7 +103,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:rgb(255, 81, 0, 0.5);
+    background:rgb(243, 140, 6, 0.7);
     color: white;
     text-align: center;
       }
@@ -162,7 +163,7 @@ footer {
 }
 
 .contact-form button {
-    background-color: #ff9900;
+    background-color:rgb(243, 140, 6, 0.7);
     color: #fff;
     padding: 10px;
     border: none;
@@ -171,5 +172,5 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #fda501;
+    background-color: rgb(243, 140, 6, 0.7);
 }
