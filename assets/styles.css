@@ -33,6 +33,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    align-items: baseline;
 }
 
 /* Navigation link styling */
@@ -93,7 +94,13 @@ main {
     padding: 60px;
     text-align:center;
     max-width:1200px;
-    
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
