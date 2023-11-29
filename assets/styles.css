@@ -1,4 +1,9 @@
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) 
+{
+
 head, header h1, h2{
+    font-family: 'Nova Square', sans-serif;
     background:rgb(243, 140, 6, 0.7);
     width: 100%;
     color: white;
@@ -8,13 +13,16 @@ head, header h1, h2{
     margin: 0;
    }
 
-/* Change the color of links on hover */
+/* Change the color of nav links on hover */
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 145, 0);
   }
 
+/* Navigation styling */
 nav {
+    font-family:'Nova Square', sans-serif;;
+    font-size: large;
     display: flex;
     justify-content:space-around;
     position:fixed;
@@ -27,18 +35,34 @@ nav {
     z-index: 1000;
 }
 
+/* Navigation link styling */
 nav a {
+    font-family: 'Nova Square', sans-serif;
+    font-size: smaller;
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
-
+/* Background image styling to cover the whole page */
 body, html {
     height: 100%;
 }
 
+.bg {
+    /* The image used for background */
+    background-image: url(assets/images/coffee&guitar.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
 body {
-    background-image:url(assets/images/coffee&guitar.jpg) no-repeat center center;
     margin: 0;
     font-family: Arial, sans-serif;
     color: black;
@@ -60,18 +84,10 @@ body {
     height: auto;
 }
 
-.gallery {
-    display:table-column;
-    max-width: 100%;
-    height: auto;
-    padding:0;
-}
-
-
 main {
     background: rgb(255, 136, 1, 0.5);
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
     justify-content: center;
     margin: 60px;
@@ -80,16 +96,8 @@ main {
     max-width:900px;
 }
 
-main > p {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    text-align: center;
-    margin: 60px;
-    
-}
-
 footer {
+    font-family: 'Nova Square', sans-serif;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -109,26 +117,22 @@ footer {
     text-decoration: none;
   }
   
-  /* Add a hover effect if you want */
+  /* Hover effect for social icons */
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
+  /* Facebook styling */
   .fa-facebook {
     background: none;
     color: white;
   }
   
-  /* Instagram */
+  /* Instagram styling */
   .fa-instagram {
     background: none;
     color: white;
   } 
-
-
 
 /* Contact me styles */
 .contact-form {
@@ -169,87 +173,3 @@ footer {
 .contact-form button:hover {
     background-color: #fda501;
 }
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    height: 300px;
-  }
-  
-
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
