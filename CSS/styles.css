@@ -1,17 +1,6 @@
 /* Imperted Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-header{
-    font-family: 'Nova Square', sans-serif;
-    width: 100%;
-    color: white;
-    text-align: center;
-    overflow:scroll;
-    font-size: large;
-    display: flex;
-    position:relative;
-    padding: auto;
-    justify-content: center;
-   }
+
 h1 {
     justify-content: center;
     font-size: 20px;
@@ -28,21 +17,20 @@ h2 {
     color: white;
    }
 
-#cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: relative;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
+
+header{
+    font-family: 'Nova Square', sans-serif;
+    width: 100%;
+    color: white;
+    overflow:scroll;
+    font-size: large;
+    position:relative;
+    padding: auto;
+    justify-content: center;
+   }
 
 /* Change the color of nav links on hover */
 .topnav a:hover {
-    background-color:  rgba(255, 123, 0, 0.7);
     background:rgb(255, 255, 255);
     color:rgba(255, 123, 0, 0.7); ;
   }
@@ -97,8 +85,14 @@ p {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    text-align:center;
-    width: 100%;
+}
+
+#brewing-videos {
+    justify-content: center;
+    display: inline-block;
+    position: center;
+    margin: 0 auto;
+    
 }
 
 .responsive {
@@ -110,16 +104,18 @@ main {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    text-align:left;
     width: 100%;
-    height: auto;
+    height: fit-content;
     margin-bottom: 80px;
-    margin-top: auto;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 main a {
     color:black;
+}
+
+section {
+    padding: 20px;;
 }
 
 footer {
@@ -203,13 +199,13 @@ footer {
 /* Gallery photo-fase styling inserted from W3Scools */
 .container {
     display:inline-block;
-    width: 200px;
-    height: 200px;
-    position: center;
-    padding: 20px;
-    margin: 50px;
+    padding: 10px;
+    margin: 15px;
     border:rgb(243, 140, 6);
     border: 2px;
+    width: 200px;
+    height:200px;
+    float: left;
   }
   
   .image {
