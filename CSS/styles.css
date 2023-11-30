@@ -1,4 +1,4 @@
-/* Imperted Google fonts */
+/* Imported Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
     svg {
@@ -48,8 +48,7 @@ header{
 
 /* Change the color of nav links on hover */
 .topnav a:hover {
-    background:rgb(255, 255, 255);
-    color:rgba(255, 123, 0, 0.7); ;
+    color:rgb(0, 0, 0); ;
   }
 
 /* Navigation styling */
@@ -77,6 +76,13 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     width: 100%;
+}
+
+#coffeeshop-photos {
+    justify-content: center;
+    display: inline-block;
+    position: center;
+    margin: 0 auto;   
 }
 
 .tips {
@@ -110,10 +116,6 @@ p {
     margin: 0 auto;   
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
 
 main {
     color: white;
@@ -126,10 +128,6 @@ main {
 
 main a {
     color:black;
-}
-
-section {
-    padding: 20px;;
 }
 
 footer {
@@ -225,28 +223,8 @@ footer {
     float: left;
   }
   
-  .image {
-    opacity: 1;
-    display: inline-block;
-    width: 100%;
-    height: 200px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    float: left;
-  }
   
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
+.container:hover .image {
     opacity: 0.3;
   }
   
@@ -259,6 +237,7 @@ footer {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    justify-content: center;
   }
 
 
