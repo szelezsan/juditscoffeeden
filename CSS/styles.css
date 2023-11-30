@@ -2,10 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 header{
     font-family: 'Nova Square', sans-serif;
-    background:rgb(243, 140, 6);
     width: 100%;
     color: white;
     text-align: center;
+    overflow:scroll;
+    font-size: large;
+    display: flex;
+    position:relative;
+    margin-top: 20px;
+    padding: auto;
+    justify-content: center;
+   }
+
+   h2 {
+    justify-content: center;
+    margin-top: 40px;
    }
 
 #cover-text {
@@ -22,8 +33,9 @@ header{
 
 /* Change the color of nav links on hover */
 .topnav a:hover {
-    background-color: rgb(255, 255, 255);
-    background:rgb(243, 140, 6, 0.7);
+    background-color:  rgba(255, 123, 0, 0.7);
+    background:rgb(255, 255, 255);
+    color:rgba(255, 123, 0, 0.7); ;
   }
 
 /* Navigation styling */
@@ -35,7 +47,7 @@ nav {
     justify-content:space-around;
     position:fixed;
     color: white;
-    background:rgb(243, 140, 6, 0.7);
+    background: rgba(255, 123, 0, 0.7);
     padding: 15px;
     top: 0;
     left: 0;
@@ -69,6 +81,7 @@ body {
     margin-bottom: 0;
     padding-bottom: 0;
     color:white;
+    background:  rgba(255, 123, 0, 0.7);
 }
 
 p {
@@ -77,9 +90,7 @@ p {
     font-size:medium;
     text-align:center;
     width: 100%;
-   
 }
-    
 
 .responsive {
     width: 100%;
@@ -87,14 +98,15 @@ p {
 }
 
 main {
-    background:rgba(0, 0, 0, 0.4);
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    text-align:center;
+    text-align:left;
     width: 100%;
+    height: auto;
     margin-bottom: 80px;
     margin-top: auto;
+    justify-content: center;
 }
 
 main a {
@@ -107,8 +119,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background:rgb(243, 140, 6, 0.7);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgba(255, 123, 0, 0.7);
     text-align: center;
       }
 
@@ -130,14 +142,14 @@ footer {
   /* Facebook styling */
   .fa-facebook {
     background: none;
-    color: white;
+    color: rgba(255, 123, 0, 0.7);
   }
   
   /* Instagram styling */
   .fa-instagram {
     background: none;
-    color: white;
-  } 
+    color:rgba(255, 123, 0, 0.7);
+  }
 
 /* Contact me styles */
 .contact-form {
