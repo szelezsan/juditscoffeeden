@@ -76,6 +76,7 @@ p{
     /* Enable flex properties for child elements */
     display: flex;
     margin: 40px;
+    padding: 0;
 }
 
 .responsive {
@@ -93,9 +94,10 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 40px;
     /* Enable flex properties for child elements */
     display: flex;
+    padding: 20px;
     
 }
 
