@@ -1,10 +1,8 @@
-/* ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
-@media (min-width: 1281px) 
-{
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 head, header h1, h2{
     font-family: 'Nova Square', sans-serif;
-    background:rgb(243, 140, 6, 0.7);
+    background:rgb(243, 140, 6);
     width: 100%;
     color: white;
     text-align: center;
@@ -12,14 +10,6 @@ head, header h1, h2{
     padding-top: 40px;
     margin: 0;
    }
-
-/* Hero section */
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("assets/images/untitled-1030441.jpg") no-repeat center center/cover;
-    position: relative;
-}
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -32,7 +22,24 @@ head, header h1, h2{
     padding-top: 40px;
     padding-left: 10px;
 }
-
+h1{
+    position:fixed;
+    margin: 40px;
+    padding: 30px;
+    top: 2;
+    width: 100%;
+    z-index: 1000;
+    align-items: baseline;
+}
+h2{
+    position:fixed;
+    margin: 70px;
+    padding: 20px;
+    top: 4;
+    width: 100%;
+    z-index: 1000;
+    align-items: baseline;
+}
 /* Change the color of nav links on hover */
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
@@ -41,6 +48,7 @@ head, header h1, h2{
 
 /* Navigation styling */
 nav {
+    overflow:scroll;
     font-family:'Nova Square', sans-serif;;
     font-size: large;
     display: flex;
@@ -49,7 +57,6 @@ nav {
     color: white;
     background:rgb(243, 140, 6, 0.7);
     padding: 15px;
-    position: relative;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -63,28 +70,11 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
-/* Background image styling to cover the whole page */
-body, html {
-    height: 100%;
-}
 
-.bg {
-    /* The image used for background */
-    background-image: url(assets/images/coffee&guitar.jpg);
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-  }
+}
 
 body {
-    margin: 0;
+    margin: 150px;
     font-family: Arial, sans-serif;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -110,8 +100,6 @@ main {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    margin: 60px;
-    padding: 60px;
     text-align:center;
     max-width:1200px;
     /* Enlarge main element to push footer down*/
@@ -248,3 +236,33 @@ footer {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+
+/*Styles inserted from W3 Schools */
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 30%;
+    padding: 6px;
+    margin:auto;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: inline;
+  } 
+
+
+  @media (min-width: 1025px) and (max-width: 1280px){}
+
+
+  @media (min-width: 768px) and (max-width: 1024px){}
+
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){}
+
+  @media (min-width: 481px) and (max-width: 767px){}
+
+  @media (min-width: 320px) and (max-width: 480px){}
