@@ -1,5 +1,5 @@
+/* Imperted Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
 header{
     font-family: 'Nova Square', sans-serif;
     background:rgb(243, 140, 6);
@@ -54,30 +54,6 @@ nav a {
     width: 100%;
 }
 
-/* The hero image-style inserted from W3 Schools */
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Images/Coffee photos/000006.JPG");
-  
-    /* Set a specific height */
-    height: 50%;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  /* Place text in the middle of the image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
 
 body {
     margin: 100px;
@@ -86,15 +62,20 @@ body {
     padding-bottom: 0;
     color:white;
 }
-/* Photo of myslef in about.html */
-.selfie {
-    width: 1000px;
-    height: 300px;
-    display: block;
-    justify-content: center;
-    padding:10px;
-    margin-left:150px;
-    position: relative;
+
+p{
+    color: white;
+    font-family: 'Nova Square', sans-serif, thin;
+    font-size:medium;
+    text-align:center;
+    width: 100%;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin: 40px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    margin: 40px;
 }
 
 .responsive {
@@ -107,15 +88,19 @@ main {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    text-align:left;
-    max-width:1200px;
+    text-align:center, center;
+    width: 100%
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
-    flex-direction: column;
+    
+}
+
+main a {
+    color:black;
 }
 
 footer {
@@ -260,6 +245,11 @@ footer {
     clear: both;
     display: inline;
   } 
+
+  body, html {
+    height: 100%;
+}
+
 
 
   @media (min-width: 1025px) and (max-width: 1280px){}
