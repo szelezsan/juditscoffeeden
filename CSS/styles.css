@@ -46,6 +46,7 @@ nav {
 
 /* Navigation link styling */
 nav a {
+    overflow: scroll;
     font-family: 'Nova Square', sans-serif;
     font-size: smaller;
     color: white;
@@ -54,30 +55,31 @@ nav a {
     width: 100%;
 }
 
-
-body {
-    margin: 100px;
-    font-family: Arial, sans-serif;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color:white;
-}
-
-p{
+.tips {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
     text-align:center;
     width: 100%;
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin: 40px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    margin: 40px;
-    padding: 0;
 }
+
+body {
+    margin-top: 100px;
+    font-family: 'Nova Square', sans-serif, thin;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:white;
+}
+
+p {
+    color: white;
+    font-family: 'Nova Square', sans-serif, thin;
+    font-size:medium;
+    text-align:center;
+    width: 100%;
+   
+}
+    
 
 .responsive {
     width: 100%;
@@ -89,16 +91,10 @@ main {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    text-align:center, center;
-    width: 100%
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 40px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    padding: 20px;
-    
+    text-align:center;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: auto;
 }
 
 main a {
@@ -159,16 +155,15 @@ footer {
     margin-bottom: 8px;
 }
 
-.contact-form input,
+.contact-form text-input,
 .contact-form textarea {
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    height: 50px;
-    width: 50px;
-    text-align: left;
+    text-align: center;
+
 }
 
 .contact-form button {
@@ -186,10 +181,10 @@ footer {
 
 /* Gallery photo-fase styling inserted from W3Scools */
 .container {
-    display: inline-block;
+    display:inline-block;
     width: 200px;
-    height: auto;
-    position: relative;
+    height: 200px;
+    position: center;
     padding: 20px;
     margin: 50px;
     border:rgb(243, 140, 6);
@@ -200,7 +195,7 @@ footer {
     opacity: 1;
     display: inline-block;
     width: 100%;
-    height: auto;
+    height: 200px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
