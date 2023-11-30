@@ -179,6 +179,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
+    text-align: center;
 }
 
 .contact-form label {
@@ -186,14 +187,16 @@ footer {
     margin-bottom: 8px;
 }
 
-.contact-form text-input,
+.contact-form input text,
 .contact-form textarea {
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    text-align: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
 
 }
 
