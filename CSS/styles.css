@@ -204,13 +204,14 @@ footer {
 
 /* Gallery photo-fase styling inserted from W3Scools */
 .container {
+    display: inline-block;
+    width: 200px;
+    height: auto;
     position: relative;
-    width: 20%;
-    height: 20%;
     padding: 20px;
     margin: 50px;
-    display: inline-block;
-    border:rgb(243, 140, 6)
+    border:rgb(243, 140, 6);
+    border: 2px;
   }
   
   .image {
