@@ -1,17 +1,34 @@
 /* Imperted Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-h1 {
-    justify-content: center;
-    font-size:x-large;
-    font-family: 'Nova Square', sans-serif;
-    color:white;
-    text-align: center;
-}
+    svg {
+        font-family: "Nova Square", sans-serif;
+        width: 100%; height: 100%;
+    }
+    svg text {
+        animation: stroke 2s infinite alternate;
+        stroke-width: 2;
+        stroke: #F3F3F3;
+        font-size: 69px;
+    }
+    @keyframes stroke {
+        0%   {
+            fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1);
+            stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+        }
+        70%  {fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1); }
+        80%  {fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1); stroke-width: 3; }
+        100% {
+            fill: rgba(243,243,243,1); stroke: rgba(243,243,243,0);
+            stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+        }
+    }
+    
+    .wrapper {background-color: none};
 
 h2 {
     justify-content: center;
-    font-size:large;
+    font-size:40px;
     text-align: center;
     font-family: 'Nova Square', sans-serif;
     color: white;
@@ -261,33 +278,6 @@ footer {
   body, html {
     height: 100%;
 }
-
-/* Animated h1 styling from https://www.cssportal.com/css-animated-text-generator/ */
-
-svg {
-	font-family: 'Nova Square', sans-serif;
-	width: 100%; height: 100%;
-}
-svg text {
-	animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #F3F3F3;
-	font-size: 69px;
-}
-@keyframes stroke {
-	0%   {
-		fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1); }
-	80%  {fill: rgba(243,243,243,0); stroke: rgba(243,243,243,1); stroke-width: 3; }
-	100% {
-		fill: rgba(243,243,243,1); stroke: rgba(243,243,243,0);
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
-}
-
-.wrapper {background-color: none;
 
 
 
