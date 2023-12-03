@@ -42,7 +42,7 @@ body {
     margin-bottom: 15px;
     justify-content: center;
     text-align: center;
-    background-color: rgba(rgb(255, 183, 0), green, blue, alpha);
+    background-color: rgba(255, 183, 0);
 }
 
 main {
@@ -130,7 +130,7 @@ footer {
     background: rgb(255, 255, 255);
     color: rgba(255, 123, 0, 0.7);
     text-align: center;
-    padding: 20 20 20 20;
+    padding: 20px;
       }
 
 /* Social media icon styling */
@@ -165,7 +165,7 @@ footer {
     background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20 p 10% 0 10%;
+    padding: 20px 10% 0 10%;
     flex-grow: 1;
   }
 
@@ -252,3 +252,5 @@ footer {
     body {
     max-width: 100%;
     }
+  }
+}
