@@ -1,6 +1,12 @@
 /* Imported Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser-inserted from Codeanywhere */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 svg text {
 	animation: stroke 9s infinite alternate;
 	stroke-width: 2;
@@ -93,7 +99,7 @@ body {
     margin-bottom: 0;
     padding-bottom: auto;
     color:white;
-    background:  rgba(255, 123, 0, 0.7);
+    background:none;
 }
 
 p {
@@ -139,7 +145,7 @@ p {
   }
   
   .text {
-    background-color: rgba(255, 123, 0, 0.7);
+    background-color: rgba(255, 123, 0, 0.5);
     color: white;
     font-size: 16px;
     padding: 16px 32px;
@@ -158,6 +164,7 @@ main a {
 
 footer {
     font-family: 'Nova Square', sans-serif;
+    font-size: 20px;;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -165,6 +172,7 @@ footer {
     background: rgb(255, 255, 255);
     color: rgba(255, 123, 0, 0.7);
     text-align: center;
+    padding: 20 20 20 20;
       }
 
 /* Social media icon styling */
@@ -195,6 +203,14 @@ footer {
   }
 
 /* Contact me styles */
+#contact {
+    background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20 px 10% 0 10%;
+    flex-grow: 1;
+  }
+
 .contact-form {
     max-width: 400px;
     width: 100%;
