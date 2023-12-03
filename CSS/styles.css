@@ -12,6 +12,7 @@ svg text {
 	stroke-width: 2;
 	stroke: #F3F3F3;
 	font-size: 55px;
+   
 }
 @keyframes stroke {
 	0%   {
@@ -69,7 +70,7 @@ main {
 /* Gallery photo-fase styling in coffeeshops.html- inserted from W3Scools */
 .container {
     position: relative;
-    width: 50%;
+    width: 40%;
   }
   
 .image {
@@ -228,7 +229,7 @@ footer {
  /* Three image containers (use 25% for four, and 50% for two, etc) */
  .column {
     float: left;
-    width: 25%;
+    width: 40%;
     padding: 50px;
     justify-content: space-evenly;
   }
@@ -267,18 +268,3 @@ footer {
     body {
     max-width: 100%;
     }
-
-    nav{
-        max-width:100%;
-        font-size: 10px;
-
-    }
-    nav a:hover {
-        color:black;
-    }
-
-    .container {
-        position: center;
-        width: 30%;
-        min-width: 100px;
-      }
