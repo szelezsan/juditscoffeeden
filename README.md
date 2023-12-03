@@ -1,5 +1,8 @@
 # juditscoffeeden
 
+
+
+
 Slideshow code: https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 Proper Order Photo: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FProperOrder_&psig=AOvVaw26rnwY810mHhe_fg6J6X4B&ust=1701371493850000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCNDy-O306YIDFQAAAAAdAAAAABAE

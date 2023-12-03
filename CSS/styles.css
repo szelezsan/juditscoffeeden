@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 svg text {
 	animation: stroke 9s infinite alternate;
@@ -35,16 +35,15 @@ h2 {
    }
 
 
-header{
-    font-family: 'Nova Square', sans-serif;
+header {
+    background-color:rgb(235, 144, 59);
+    position: fixed;
+    z-index: 99;
     width: 100%;
-    color: white;
-    background: rgba(255, 123, 0, 0.7);;
-    overflow:scroll;
-    font-size: large;
-    position:relative;
-    justify-content: center;
-    text-align: center;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
    }
 
 /* Change the color of nav links on hover */
@@ -61,12 +60,11 @@ nav {
     position:fixed;
     color: white;
     background: rgba(255, 123, 0, 0.7);
-    padding: 15px;
+    padding: 10px;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-
 }
 
 /* Navigation link styling */
@@ -98,15 +96,16 @@ body {
     font-family: 'Nova Square', sans-serif, thin;
     margin-bottom: 0;
     padding-bottom: auto;
-    color:white;
+    color:rgba(255, 123, 0);
     background:none;
+    text-align:center;
 }
 
 p {
-    color: white;
+    color: rgba(255, 123, 0);
     font-family: 'Nova Square', sans-serif, thin;
     font-size:medium;
-    margin-bottom: 80px;
+    margin-bottom: 15px;
     justify-content: center;
     text-align: center;
 }
