@@ -31,7 +31,8 @@ nav a {
 }
 header {
     width:100%;
-    background-color: rgba(255, 123, 0,0.8);;
+    color: rgba(255, 123, 0,0.8);
+    background: none;
 }
 
 body {
@@ -41,14 +42,20 @@ body {
     margin-bottom: 15px;
     justify-content: center;
     text-align: center;
+    background-color: rgba(rgb(255, 183, 0), green, blue, alpha);
 }
 
 main {
     text-align: center;
     justify-content:center;
     font-size: medium;
-
 }
+
+/* Color change for internal links in the main */
+main a {
+  color:black;
+}
+
 /* Gallery photo-fase styling in coffeeshops.html- inserted from W3Scools */
 .container {
     position: relative;
@@ -112,11 +119,6 @@ h3 {
     width: 100%;
 }
 
-
-
-main a {
-    color:black;
-}
 
 footer {
     font-family: 'Nova Square', sans-serif;
