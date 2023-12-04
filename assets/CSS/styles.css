@@ -22,6 +22,7 @@
   position: absolute;
   margin: 20px;
   width: auto;
+  
 }
 
 /* The navbar */
@@ -54,10 +55,18 @@ main {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 20px;
-  padding-top: 50px;
-  padding-left: 60px;
+  padding-top: 20px;
+  padding-left: 70px;
   padding-right: 60px;
   line-height: 40px;
+  justify-content: center;
+}
+
+.welcome-main {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
 
 main a{
@@ -79,7 +88,7 @@ p a {
     display: inline-block;
     position:static;
     margin: 0 auto; 
-    padding-top:30px;  
+    padding:20px; 
 }
 
 
@@ -122,7 +131,7 @@ h3 {
 input[type=submit] {
   background-color: rgba(228, 122, 15);
   color: white;
-  padding: 12px 20px;
+  padding: 12px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -134,11 +143,10 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.contact {
   border-radius: 5px;
   background-color: #f2f2f2;
-  margin-bottom: 250px;
-  margin-left: 400px;
+  margin:50px;
   padding: 20px;
   padding-top: 15px;
   justify-content: center;
@@ -164,7 +172,7 @@ footer {
     background: rgb(255, 255, 255);
     color: rgba(255, 123, 0, 0.7);
     text-align: center;
-    padding: 20px;
+    padding: 15px;
       }
 
 /* Social media icon styling */
@@ -227,6 +235,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 4px;
     justify-content: center;
+    max-width: 100%;
 }
 
 
@@ -246,6 +255,8 @@ footer {
 
   @media (min-width: 1025px) and (max-width: 1280px){
     body {
+        max-width: 100%;
+        flex:100%;
         max-width: 100%;
     }
     }
