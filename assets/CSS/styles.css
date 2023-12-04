@@ -27,17 +27,16 @@
 /* The navbar */
 .topnav {
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  position: fixed;
+  background-color:  rgb(208, 15, 15);
   padding: 10px;
   font-family: 'Roboto', sans-serif;
-
+  border-bottom: #fff;
 }
 
 /* Navbar links */
 .topnav a {
   float: left;
-  color: rgb(254, 0, 0);
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
