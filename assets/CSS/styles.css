@@ -4,9 +4,9 @@
 /* Navigation styling from W3 Scools */
 .bg-img {
   /* The image used */
-  background-image: url("images/guitarheader.jpg");
-
+  background-image: url("/assets/images/guitarheader.jpg");
   min-height: 380px;
+
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -27,7 +27,7 @@
 /* The navbar */
 .topnav {
   overflow: hidden;
-  background-color: rgb(228, 122, 15)
+  background-color: rgba(228, 122, 15);
 }
 
 /* Navbar links */
@@ -45,19 +45,50 @@
   color: black;
 }
 
+body{
+  background-color: rgba(228, 122, 15);
+  text-align: left;
+}
+main {
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 40px;
+}
+
+main a{
+  color:rgb(0, 0, 0);
+} 
+.clear {
+  clear: both;
+  height: 60px;
+}
 
 #brewing-videos {
     justify-content: center;
     display: inline-block;
     position:static;
-    margin: 0 auto;   
+    margin: 0 auto; 
+    padding-top:30px;  
 }
 
 
 h3 {
-    text-align: center;
-    font-size: 20px;
-    font-style: oblique;
+  font-family: 'Roboto' bold, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.retail-links {
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Rototo', sans-serif;
+
 }
 
 .tips {
@@ -83,7 +114,7 @@ h3 {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #aa5704;
+  background-color: rgba(228, 122, 15);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -93,7 +124,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgba(228, 122, 15);
 }
 
 /* Add a background color and some padding around the form */
@@ -101,6 +132,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin-bottom: 150px;
+  padding-top: 20px;
 } 
 
 
