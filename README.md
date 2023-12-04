@@ -2,6 +2,9 @@
 
 Judit's Coffee Den
 
+The webpage is dedicated to give you tips for making a better cup of coffee. There are different content you can browse at, such as retail links, guides and video content for brewing techniques.
+
+
 
 
 
