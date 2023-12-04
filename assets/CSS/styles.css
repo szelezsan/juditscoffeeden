@@ -1,56 +1,53 @@
 /* Imported Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
+/* Navigation styling from W3 Scools */
+.bg-img {
+  /* The image used */
+  background-image: url("assets/Images/coffeephotos/coffeeandguitar.jpg");
 
+  min-height: 380px;
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-/* Navigation styling */
-nav {
-    font-family:'Nova Square', sans-serif;;
-    font-size: large;
-    display: flex;
-    justify-content:space-around;
-    position:fixed;
-    color: white;
-    background: rgba(255, 123, 0, 0.7);
-    padding: 10px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  /* Needed to position the navbar */
+  position: relative;
 }
 
-/* Navigation link styling */
-nav a {
-    font-family: 'Nova Square', sans-serif;
-    font-size: smaller;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    width: 100%;
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
 }
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 header {
     width:100%;
-    color: rgba(255, 123, 0,0.8);
     background: none;
-}
-
-body {
-    color: rgba(255, 123, 0);
-    font-family: 'Nova Square', sans-serif, thin;
-    font-size:medium;
-    margin-bottom: 15px;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(255, 183, 0);
-    margin-bottom: 50px;
-}
-
-main {
-    text-align: center;
-    justify-content:center;
-    font-size: medium;
-    margin-bottom: 50px;
 }
 
 /* Color change for internal links in the main */
@@ -58,46 +55,7 @@ main a {
   color:black;
 }
 
-/* Gallery photo-fase styling in coffeeshops.html- inserted from W3Scools */
-.container {
-    position: relative;
-    width: 35%;
-  }
-  
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-.container:hover .image {
-    opacity: 0.3;
-  }
-  
-.container:hover .middle {
-    opacity: 1;
-  }
-  
-.text {
-    background-color: rgba(255, 123, 0, 0.5);
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+
 
 #brewing-videos {
     justify-content: center;
@@ -212,16 +170,6 @@ footer {
 .contact-form button:hover {
     background-color:rgb(243, 140, 6, 0.7);
 }
-
-/*Styles inserted from W3 Schools */
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    float: left;
-    width: 40%;
-    padding: 50px;
-    justify-content: space-evenly;
-  }
-
 
 
   @media (min-width: 1025px) and (max-width: 1280px){
