@@ -63,6 +63,11 @@ main {
 main a{
   color:rgb(0, 0, 0);
 } 
+
+p a {
+  font-weight: 550;
+}
+
 .clear {
   clear: both;
   height: 60px;
