@@ -137,11 +137,20 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
+  margin-bottom: 250px;
+  margin-left: 400px;
   padding: 20px;
-  margin-bottom: 150px;
-  padding-top: 20px;
+  padding-top: 15px;
+  justify-content: center;
 } 
 
+.message-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: rgb(255, 123, 0);
+  padding-top: 0;
+  text-align: center;
+}
 
 footer {
     font-family: 'Nova Square', sans-serif;
