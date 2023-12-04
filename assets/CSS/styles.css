@@ -246,6 +246,7 @@ footer {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    justify-content: center;
 }
 
 .contact-form button:hover {
