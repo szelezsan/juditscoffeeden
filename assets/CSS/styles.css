@@ -22,13 +22,16 @@
   position: absolute;
   margin: 20px;
   width: auto;
-  
 }
 
 /* The navbar */
 .topnav {
   overflow: hidden;
   background-color: rgba(228, 122, 15);
+  position: fixed;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: white;
 }
 
 /* Navbar links */
