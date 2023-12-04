@@ -54,7 +54,7 @@ main {
   margin-bottom: 50px;
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 1vw;
   padding-top: 20px;
   padding-left: 70px;
   padding-right: 60px;
@@ -95,7 +95,7 @@ p a {
 h3 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 2vw;
   font-style: oblique;
 }
 
@@ -109,7 +109,7 @@ h3 {
 .tips {
     color: white;
     font-family: 'Nova Square', sans-serif, thin;
-    font-size:medium;
+    font-size:1vw;
     text-align:center;
     width: 100%;
 }
@@ -254,39 +254,71 @@ footer {
 }
 
 
-  @media (min-width: 1025px) and (max-width: 1280px){
+  @media (min-width: 1872) and larger{
     body {
         max-width: 100%;
         flex:100%;
         max-width: 100%;
-    }
+        padding: 20px;
     }
   
 
 
-  @media (min-width: 768px) and (max-width: 1024px){
+  @media (max-width: 1872px)(orientation: landscape){
+    body {
+        max-width: 50%%;
+        flex: 70%%;
+        padding: 20px;
+    }
+    main {
+      max-width: fit-content;
+      flex: 100%%;
+      padding: 80px;
+      justify-content: center;
+    }
+
+}
+  
+
+
+  @media (max-width: 1312px) {
     body {
         max-width: 100%;
+        justify-content: center;
+    }
+
+    main {
+      justify-content: center;
+      margin: 20px;
+      max-width: 100%;
+
     }
 }
   
 
-
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+@media (max-width: 757){
     body {
-        max-width: 100%;
+    max-width: 50%;
+    flex: 50%;
     }
-}
   
+    #homebrew-video {
+      width:50%;
+      Flex: 50%;
+      justify-content: center;
+      padding:15px;
+    }
 
-@media (min-width: 481px) and (max-width: 767px){
-    body {
-    max-width: 100%;
+    main {
+      max-width: 50%;
+      flex: 50%;
+      font-size: 3vw;
+    }
 }
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (max-width: 480px){
     body {
-    max-width: 100%;
+    max-width: 30%;
+    flex:30%;
     }
-  }
 }
