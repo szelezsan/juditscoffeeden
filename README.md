@@ -22,3 +22,5 @@ Coffeeworks : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coffeeworks.
 
 Evalynn Photo: https://www.independent.ie/regionals/louth/news/evalynn-cafe-opens-in-byranstown/41373099.html
 
+Visual coffee grind guide: https://bigcupofcoffee.com/coffee-grind-size-chart-guide/
+
