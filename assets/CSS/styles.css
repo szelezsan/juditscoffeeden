@@ -62,10 +62,11 @@ main {
 
 main a{
   color:rgb(0, 0, 0);
+  font-weight: 500;
 } 
 
 p a {
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .clear {
@@ -83,7 +84,7 @@ p a {
 
 
 h3 {
-  font-family: 'Roboto' bold, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 40px;
   font-style: oblique;
