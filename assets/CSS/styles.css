@@ -4,7 +4,7 @@
 /* Navigation styling from W3 Scools */
 .bg-img {
   /* The image used */
-  background-image: url("../assets/images/guitarheader.jpg");
+  background-image: url("/assets/images/guitarheader.jpg");
   min-height: 300px;
   max-width: 100%;
 
