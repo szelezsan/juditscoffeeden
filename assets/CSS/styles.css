@@ -91,14 +91,6 @@ p a {
   height: 60px;
 }
 
-#brewing-videos {
-    justify-content: center;
-    display: inline-block;
-    position:static;
-    margin: 0 auto; 
-    padding:20px; 
-}
-
 
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -120,8 +112,21 @@ h3 {
     width: 100%;
 }
 
+
+#brewing-videos {
+  width:30%;
+  min-height:300px;
+  columns: 3;
+  justify-content: center;
+  display: inline-block;
+  position:static;
+  margin: 0 auto; 
+  padding:20px; 
+}
+
 .grinding-photos {
-  max-width: 1500px;
+  width: 100%;
+  height:auto;
 }
 
 /* Contact form inserted from W3 Schools */
@@ -286,6 +291,18 @@ footer {
       clear: both;
       height: 60px;
     }
+
+    #brewing-videos {
+      width:40%;
+      min-height:300px;
+      min-width:400px;
+      columns: 3;
+      justify-content: center;
+      display: inline-block;
+      position:static;
+      margin: 0 auto; 
+      padding:20px; 
+    }
 }
   
 
@@ -326,6 +343,22 @@ footer {
         clear: both;
         height: 60px;
       }
+    
+    #brewing-videos {
+      width:40%;
+      min-height:300px;
+      min-width:400px;
+      columns: 3;
+      justify-content: center;
+      display: inline-block;
+      position:static;
+      margin: 0 auto; 
+      padding:20px; 
+    }
+    
+    .grinding-photos {
+      width: 100%;
+      height:auto;
     }
 }
   
@@ -437,6 +470,21 @@ footer {
 .contact-form label {
   display: block;
   margin-bottom: 3px;
+}
+#brewing-videos {
+  width:40%;
+  min-height:300px;
+  columns: 3;
+  justify-content: center;
+  display: inline-block;
+  position:static;
+  margin: 0 auto; 
+  padding:20px; 
+}
+
+.grinding-photos {
+  width: 100%;
+  height:auto;
 }
 }
 
