@@ -41,8 +41,11 @@ This page contains a form, where you can choose from professional or homebrewing
 
 
 
+Credits:
+Background Photo: Gabor Labath
 
 Some CSS features were imported from W3 Schools: https://www.w3schools.com/howto/default.asp
 
 Visual coffee grind guide: https://bigcupofcoffee.com/coffee-grind-size-chart-guide/
 
+Coffee hardness specifics found: https://www.baristainstitute.com/node/275
