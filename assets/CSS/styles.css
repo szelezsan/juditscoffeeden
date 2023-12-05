@@ -44,10 +44,27 @@
   font-size: 17px;
 }
 
+.search-container {
+  float: none;
+}
+
+.search-container button {
+  float: inline-end;
+  display: block;
+  text-align: left;
+  width: 75%;
+  margin:0;
+  padding: 10px;
+
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
+
+/*styling for search bar on nav */
+
 
 body{
   background-color: rgba(228, 122, 15);
