@@ -1,190 +1,192 @@
 /* Imported Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 html {
-  overflow-x: scroll; /* Adds horizontal bar option */
-  overflow-y: scroll; /* Adds vertical bar option */
+    overflow-x: scroll; /* Adds horizontal bar option */
+    overflow-y: scroll; /* Adds vertical bar option */
 }
+
 /* Navigation styling from W3 Scools */
 .bg-img {
-  /* The image used */
-  background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-  max-width: 100%;
-  height: 300px;
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* The image used */
+    background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+    max-width: 100%;
+    height: 300px;
 
-  /* Needed to position the navbar */
-  position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
 }
 
 /* Position the navbar container inside the image */
 .container {
-  position: absolute;
-  margin: 15px;
-  width: auto;
+    position: absolute;
+    margin: 15px;
+    width: auto;
 }
 
 /* The navbar */
 .topnav {
-  overflow: hidden;
-  background-color:  rgb(208, 15, 15);
-  padding: 10px;
-  font-family: 'Roboto', sans-serif;
-  border-bottom: #fff;
-  position: fixed;
+    overflow: hidden;
+    background-color: rgb(208, 15, 15);
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    border-bottom: #fff;
+    position: fixed;
 }
 
 /* Navbar links */
 .topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
-body{
-  background-color: rgba(228, 122, 15);
-  text-align: left;
+body {
+    background-color: rgba(228, 122, 15);
+    text-align: left;
 }
 main {
-  margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 20px;
-  padding-top: 40px;
-  padding-left: 70px;
-  padding-right: 60px;
-  line-height: 40px;
-  justify-content: center;
-  text-align: center;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 60px;
+    line-height: 40px;
+    justify-content: center;
+    text-align: center;
 }
 
 .welcome-main {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
 }
 
-main a{
-  color:rgb(0, 0, 0);
-  font-weight: 500;
-} 
+main a {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
 h1 {
-  margin-bottom:40px;
-  padding-bottom: 30;
+    margin-bottom: 40px;
+    padding-bottom: 30;
 }
 
 p a {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .clear {
-  clear: both;
-  height: 60px;
+    clear: both;
+    height: 60px;
 }
 
-
 h3 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
 .retail-links {
-  text-align: center;
-  font-weight: 500;
-  font-family: 'Rototo', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Rototo", sans-serif;
 }
 
 .tips {
     color: white;
-    font-family: 'Nova Square', sans-serif, thin;
-    font-size:1vw;
-    text-align:center;
+    font-family: "Nova Square", sans-serif, thin;
+    font-size: 1vw;
+    text-align: center;
     width: 100%;
 }
 
-
 #brewing-videos {
-  width: 560px;
-  height: 315px;
-  max-width: 50%;
-  justify-content: center;
-  display: inline-block;
-  position:static;
-  margin: 0 auto; 
-  padding:20px; 
+    width: 560px;
+    height: 315px;
+    max-width: 50%;
+    justify-content: center;
+    display: inline-block;
+    position: static;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .grinding-photos {
-  width: 100%;
-  height:auto;
+    width: 100%;
+    height: auto;
 }
 
 /* Contact form inserted from W3 Schools */
- /* Style inputs with type="text", select elements and textareas */
- input[type=text], input[type=email], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid rgb(231, 139, 9); /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: both /* Allow the user to vertically and horizontally resize the textarea */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid rgb(231, 139, 9); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: both; /* Allow the user to vertically and horizontally resize the textarea */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: rgba(228, 122, 15);
-  color: white;
-  padding: 12px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+input[type="submit"] {
+    background-color: rgba(228, 122, 15);
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: rgba(228, 122, 15);
+input[type="submit"]:hover {
+    background-color: rgba(228, 122, 15);
 }
 
 /* Add a background color and some padding around the form */
 .contact {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  margin:50px;
-  padding: 20px;
-  padding-top: 15px;
-  justify-content: center;
-} 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 50px;
+    padding: 20px;
+    padding-top: 15px;
+    justify-content: center;
+}
 
 .message-header {
-  font-family: 'Roboto', sans-serif;
-  font-size: 25px;
-  color: rgb(255, 123, 0);
-  padding-top: 0;
-  text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: rgb(255, 123, 0);
+    padding-top: 0;
+    text-align: center;
 }
-label{
-  font-family: 'Roboto', sans-serif;
-  color:rgb(255, 123, 0);
+label {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 123, 0);
 }
 
 footer {
-    font-family: 'Nova Square', sans-serif;
-    font-size: 15px;;
+    font-family: "Nova Square", sans-serif;
+    font-size: 15px;
     position: fixed;
     left: 0;
     right: 0;
@@ -195,34 +197,34 @@ footer {
     color: rgba(255, 123, 0, 0.7);
     text-align: center;
     padding: 15px;
-      }
+}
 
 /* Social media icon styling */
 /* Style all font awesome icons */
- .fa {
+.fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
-  
-  /* Hover effect for social icons */
-  .fa:hover {
+}
+
+/* Hover effect for social icons */
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Facebook styling */
-  .fa-facebook {
+}
+
+/* Facebook styling */
+.fa-facebook {
     background: none;
     color: rgba(255, 123, 0, 0.7);
-  }
-  
-  /* Instagram styling */
-  .fa-instagram {
+}
+
+/* Instagram styling */
+.fa-instagram {
     background: none;
-    color:rgba(255, 123, 0, 0.7);
-  }
+    color: rgba(255, 123, 0, 0.7);
+}
 
 /* Contact me styles */
 #contact {
@@ -231,7 +233,7 @@ footer {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-  }
+}
 
 .contact-form {
     max-width: 400px;
@@ -260,9 +262,8 @@ footer {
     max-width: 100%;
 }
 
-
 .contact-form button {
-    background-color:rgb(243, 140, 6, 0.7);
+    background-color: rgb(243, 140, 6, 0.7);
     color: #fff;
     padding: 10px;
     border: none;
@@ -272,27 +273,26 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color:rgb(243, 140, 6, 0.7);
+    background-color: rgb(243, 140, 6, 0.7);
 }
 
-
-
-@media (max-width: 1872px)(orientation: landscape){
+@media (max-width: 1872px) (orientation: landscape) {
     body {
         max-width: 50%%;
         flex: 70%%;
         padding: 20px;
     }
+
     main {
-      max-width: fit-content;
-      flex: 100%%;
-      padding: 80px;
-      justify-content: center;
+        max-width: fit-content;
+        flex: 100%%;
+        padding: 80px;
+        justify-content: center;
     }
 
     .clear {
-      clear: both;
-      height: 60px;
+        clear: both;
+        height: 60px;
     }
 
     #brewing-videos {
@@ -302,356 +302,347 @@ footer {
         columns: 3;
         justify-content: center;
         display: inline-block;
-        position:static;
-        margin: 0 auto; 
-        padding:20px; 
-      }
-      
-      justify-content: center;
-      display: inline-block;
-      position:static;
-      margin: 0 auto; 
-      padding:20px; 
+        position: static;
+        margin: 0 auto;
+        padding: 20px;
     }
+
     footer {
-      margin-top: 50px;
-      padding: 5px;
-      font-size: 3vw;
-      position: fixed;
+        margin-top: 50px;
+        padding: 5px;
+        font-size: 3vw;
+        position: fixed;
     }
 }
-  
 
-
-  @media (min-width: 757px, max-width: 1312px) {
+@media (min-width: 757px, max-width: 1312px) {
     body {
         max-width: 100%;
         justify-content: center;
     }
 
     main {
-      margin-bottom: 50px;
-      font-family: 'Roboto', sans-serif;
-      color: white;
-      font-size: 2vw;
-      padding-top: 3px;
-      padding-left: 2px;
-      padding-right: 2px;
-      line-height: 25px;
-      justify-content: center;
+        margin-bottom: 50px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 2vw;
+        padding-top: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
+        line-height: 25px;
+        justify-content: center;
     }
     .bg-img {
-      /* The image used */
-      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-      min-height: 110px;
-    
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-    
-      /* Needed to position the navbar */
-      position: relative;
+        /* The image used */
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        min-height: 110px;
 
-      .clear {
-        clear: both;
-        height: 60px;
-      }
-    
-    #brewing-videos {
-      width:40%;
-      columns: 3;
-      justify-content: center;
-      display: inline-block;
-      position:static;
-      margin: 0 auto; 
-      padding:20px; 
-    }
-    
-    .grinding-photos {
-      width: 100%;
-      height:auto;
-    }
-    footer {
-      margin-top: 50px;
-      padding: 5px;
-      font-size: 3vw;
-      position: fixed;
-    }
-}
-  
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-@media (min-width:481px, max-width: 757px){
-    body {
-    max-width: 50%;
-    flex: 50%;
-    }
-  
-    #homebrew-video {
-      width:50%;
-      Flex: 50%;
-      justify-content: center;
-      padding:15px;
-    }
-
-    main {
-      margin-bottom: 80px;
-      font-family: 'Roboto', sans-serif;
-      color: white;
-      font-size: 2vw;
-      padding-top: 10px;
-      padding-left: 5px;
-      padding-right: 5px;
-      line-height: 15px;
-      justify-content: center;
-    }
-
-    h1 {
-      margin-bottom:40px;
-      padding-bottom: 30;
-      font-size:3vw;
-    }
-
-    .bg-img {
-      /* The image used */
-      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-      min-height: 100px;
-    
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    
-      /* Needed to position the navbar */
-      position: relative;
-    }
-    footer {
-      margin-top: 50px;
-      padding: 5px;
-      font-size: 3vw;
-      position: fixed;
-    }
-    /* The navbar */
-.topnav {
-  overflow: hidden;
-  background-color:  rgb(208, 15, 15);
-  padding: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1vw;
-  border-bottom: #fff;
-  position: fixed;
-}
-
-/* Navbar links */
-.topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 5px 7px;
-  text-decoration: none;
-  font-size: 10px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-/* Contact me styles */
-.contact {
-  font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
-}
-
-.message-header {
-  font-size: 2vw;
-}
-
-#contact {
-  background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-  background-size: cover;
-  background-position: 50%;
-  padding: 5px 10% 0 10%;
-  flex-grow: 1;
-}
-
-.contact-form {
-  max-width: 220px;
-  width: 75%;
-  background-color: #fff;
-  padding: 2px;
-  border-radius: 3px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  justify-content: center;
-  text-align: center;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 3px;
-}
-#brewing-videos {
-  width:40%;
-  columns: 3;
-  justify-content: center;
-  display: inline-block;
-  position:static;
-  margin: 0 auto; 
-  padding:20px; 
-}
-
-.grinding-photos {
-  width: 100%;
-  height:auto;
-}
-}
-
-@media (min-width:300px, max-width: 480px){
-    main {
-    max-width: 100%;
-    flex:50%;
-    font-size: 3vw;
-    margin:2px;
-    padding: 2px;
-    line-height: 15px;
-    columns: 1;
-    column-width: 100px;;
-    }
-
-    h1 {
-      margin-bottom:10px;
-      padding-bottom: 15px;;
-      font-size:3vw;
+        /* Needed to position the navbar */
+        position: relative;
     }
 
     .clear {
-      clear: both;
-      height: 60px;
+        clear: both;
+        height: 60px;
     }
 
-    .bg-img {
-      /* The image used */
-      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-      min-height: 150px;
-    
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      
-    
-      /* Needed to position the navbar */
-      position: relative;
+    #brewing-videos {
+        width: 40%;
+        columns: 3;
+        justify-content: center;
+        display: inline-block;
+        position: static;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .grinding-photos {
+        width: 100%;
+        height: auto;
     }
 
     footer {
-      margin-top: 80px;
-      padding: 4px;
-      font-size: 2vw;
-      position: fixed;
+        margin-top: 50px;
+        padding: 5px;
+        font-size: 3vw;
+        position: fixed;
     }
+}
+
+@media (min-width: 481px, max-width: 757px) {
+    body {
+        max-width: 50%;
+        flex: 50%;
+    }
+
+    #homebrew-video {
+        width: 50%;
+        flex: 50%;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    main {
+        margin-bottom: 80px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        font-size: 2vw;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 15px;
+        justify-content: center;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+        padding-bottom: 30;
+        font-size: 3vw;
+    }
+
+    .bg-img {
+        /* The image used */
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        min-height: 100px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* Needed to position the navbar */
+        position: relative;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding: 5px;
+        font-size: 3vw;
+        position: fixed;
+    }
+
     /* The navbar */
     .topnav {
-      overflow: hidden;
-      background-color:  rgb(208, 15, 15);
-      padding: 10px;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1vw;
-      border-bottom: #fff;
-      position: fixed;
+        overflow: hidden;
+        background-color: rgb(208, 15, 15);
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1vw;
+        border-bottom: #fff;
+        position: fixed;
     }
 
     /* Navbar links */
     .topnav a {
-      float: left;
-      color: #ffffff;
-      text-align: center;
-      padding: 5px 7px;
-      text-decoration: none;
-      font-size: 10px;
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px 7px;
+        text-decoration: none;
+        font-size: 10px;
     }
 
     .topnav a:hover {
-      background-color: #ddd;
-      color: black;
+        background-color: #ddd;
+        color: black;
+    }
+    /* Contact me styles */
+    .contact {
+        font-size: 2vw;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .message-header {
+        font-size: 2vw;
+    }
+
+    #contact {
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        background-size: cover;
+        background-position: 50%;
+        padding: 5px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+    .contact-form {
+        max-width: 220px;
+        width: 75%;
+        background-color: #fff;
+        padding: 2px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    #brewing-videos {
+        width: 40%;
+        columns: 3;
+        justify-content: center;
+        display: inline-block;
+        position: static;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .grinding-photos {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 300px, max-width: 480px) {
+    main {
+        max-width: 100%;
+        flex: 50%;
+        font-size: 3vw;
+        margin: 2px;
+        padding: 2px;
+        line-height: 15px;
+        columns: 1;
+        column-width: 100px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        font-size: 3vw;
+    }
+
+    .clear {
+        clear: both;
+        height: 60px;
+    }
+
+    .bg-img {
+        /* The image used */
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        min-height: 150px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* Needed to position the navbar */
+        position: relative;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding: 4px;
+        font-size: 2vw;
+        position: fixed;
+    }
+
+    /* The navbar */
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(208, 15, 15);
+        padding: 10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1vw;
+        border-bottom: #fff;
+        position: fixed;
+    }
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px 7px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
     }
 
     /* Contact me styles */
     .contact {
-      font-size: 3vw;
-      font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
+        font-family: "Roboto", sans-serif;
     }
 
     .message-header {
-      font-size: 4vw;
+        font-size: 4vw;
     }
 
     #contact {
-      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-      background-size: cover;
-      background-position: 50%;
-      padding: 5px 10% 0 10%;
-      flex-grow: 1;
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        background-size: cover;
+        background-position: 50%;
+        padding: 5px 10% 0 10%;
+        flex-grow: 1;
     }
 
     .contact-form {
-      max-width: 200px;
-      width: 100%;
-      background-color: #fff;
-      padding: 5px;
-      border-radius: 3px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      justify-content: center;
-      text-align: center;
+        max-width: 200px;
+        width: 100%;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+        text-align: center;
     }
 
     .contact-form label {
-      display: block;
-    margin-bottom: 3px;
+        display: block;
+        margin-bottom: 3px;
     }
 
     .contact-form input [text-box],
     .contact-form textarea {
-      padding: 3px;
-      margin-bottom: 16px;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      justify-content: center;
-      max-width: 100%;
+        padding: 3px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        justify-content: center;
+        max-width: 100%;
     }
 
-
     .contact-form button {
-      background-color:rgb(243, 140, 6, 0.7);
-      color: #fff;
-      padding: 3px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      justify-content: center;
+        background-color: rgb(243, 140, 6, 0.7);
+        color: #fff;
+        padding: 3px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        justify-content: center;
     }
 
     .contact-form button:hover {
-      background-color:rgb(243, 140, 6, 0.7);
+        background-color: rgb(243, 140, 6, 0.7);
     }
 
     #brewing-videos {
-      width: 40%;
-      min-width: 150px;
-      max-height: 50%;
-      margin: 2px;
-      padding: 2px;
+        width: 40%;
+        min-width: 150px;
+        max-height: 50%;
+        margin: 2px;
+        padding: 2px;
     }
 
     .fa {
-      padding: 15px;
-      font-size: 2vw;
-      width: 20px;
-      text-align: center;
-      text-decoration: none;
+        padding: 15px;
+        font-size: 2vw;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
     }
 }
