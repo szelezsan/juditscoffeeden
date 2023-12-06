@@ -52,3 +52,5 @@ Some CSS features were imported from W3 Schools: https://www.w3schools.com/howto
 Visual coffee grind guide: https://bigcupofcoffee.com/coffee-grind-size-chart-guide/
 
 Coffee hardness specifics found: https://www.baristainstitute.com/node/275
+
+Code for video insertion: https://stackoverflow.com/questions/3755007/embedded-youtube-code-does-not-validate
