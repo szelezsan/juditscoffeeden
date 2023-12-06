@@ -276,20 +276,18 @@ footer {
     background-color: rgb(243, 140, 6, 0.7);
 }
 
-@media (max-width: 1872px) (orientation: landscape) {
+@media (max-width: 1872px) and (orientation: landscape) {
     body {
         max-width: 50%;
-        flex: 70%%;
+        flex: 70%;
         padding: 20px;
     }
 
     main {
         max-width: fit-content;
-        flex: 100%%;
+        flex: 100%;
         padding: 80px;
-        justify-content: center;
     }
-
     .clear {
         clear: both;
         height: 60px;
@@ -314,8 +312,7 @@ footer {
         position: fixed;
     }
 }
-
-@media (min-width: 757px max-width: 1312px) {
+@media (min-width: 757px) and (max-width: 1312px) {
     body {
         max-width: 100%;
         justify-content: center;
@@ -373,7 +370,7 @@ footer {
         position: fixed;
     }
 
-@media (min-width: 481px, max-width: 757px) {
+@media (min-width: 481px) and (max-width: 757px) {
     body {
         max-width: 50%;
         flex: 50%;
@@ -400,7 +397,7 @@ footer {
 
     h1 {
         margin-bottom: 40px;
-        padding-bottom: 30;
+        padding-bottom: 30px;
         font-size: 3vw;
     }
 
@@ -500,7 +497,7 @@ footer {
     }
 }
 
-@media (min-width: 300px; max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
     main {
         max-width: 100%;
         flex: 50%;
@@ -644,4 +641,4 @@ footer {
         text-align: center;
         text-decoration: none;
     }
-}
+}}
