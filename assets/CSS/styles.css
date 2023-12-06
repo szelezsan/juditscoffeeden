@@ -119,6 +119,7 @@ h3 {
 #brewing-videos {
   width:30%;
   min-height:300px;
+  min-width: 400px;
   columns: 3;
   justify-content: center;
   display: inline-block;
