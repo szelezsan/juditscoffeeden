@@ -1,6 +1,9 @@
 /* Imported Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
+html {
+  overflow-x: scroll; /* Adds horizontal bar option */
+  overflow-y: scroll; /* Adds vertical bar option /*
+}
 /* Navigation styling from W3 Scools */
 .bg-img {
   /* The image used */
