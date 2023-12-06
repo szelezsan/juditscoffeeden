@@ -226,7 +226,7 @@ footer {
 
 /* Contact me styles */
 #contact {
-    background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
+    background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -329,7 +329,7 @@ footer {
     }
     .bg-img {
       /* The image used */
-      background-image: url("/assets/images/guitarheader.jpg");
+      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
       min-height: 110px;
     
     
@@ -399,7 +399,7 @@ footer {
 
     .bg-img {
       /* The image used */
-      background-image: url("/assets/images/guitarheader.jpg");
+      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
       min-height: 100px;
     
     
@@ -452,7 +452,7 @@ footer {
 }
 
 #contact {
-  background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
+  background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
   background-size: cover;
   background-position: 50%;
   padding: 5px 10% 0 10%;
@@ -514,7 +514,7 @@ footer {
 
     .bg-img {
       /* The image used */
-      background-image: url("/assets/images/guitarheader.jpg");
+      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
       min-height: 150px;
     
     
@@ -570,7 +570,7 @@ footer {
 }
 
 #contact {
-  background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
+  background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
   background-size: cover;
   background-position: 50%;
   padding: 5px 10% 0 10%;
@@ -651,9 +651,9 @@ footer {
       height: 60px;
     }
 
-    .bg-img {
+.bg-img {
       /* The image used */
-      background-image: url("/assets/images/guitarheader.jpg");
+      background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
       min-height: 150px;
     
     
@@ -665,13 +665,8 @@ footer {
     
       /* Needed to position the navbar */
       position: relative;
-    }
+}
 
-    footer {
-      margin-top: 50px;
-      padding: 5px;
-      font-size: 3vw;
-    }
 /* The navbar */
 .topnav {
   overflow: hidden;
@@ -709,7 +704,7 @@ footer {
 }
 
 #contact {
-  background-image: url("assets/Images/Coffee photos/espresso copper table.jpg");
+  background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
   background-size: cover;
   background-position: 50%;
   padding: 5px 10% 0 10%;
@@ -760,6 +755,7 @@ footer {
 
 #brewing-videos {
   width:100%;
+  min-width:100px;
   height:auto;
 }
 
@@ -767,4 +763,12 @@ footer {
   width: 100%;
   height:auto;
 }
+
+/*Footer Styling */
+footer {
+  margin-top: 50px;
+  padding: 5px;
+  font-size: 2vw;
+}
+
 }
