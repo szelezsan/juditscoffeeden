@@ -278,7 +278,7 @@ footer {
 
 @media (max-width: 2000px) and (orientation: landscape) {
     body {
-        max-width: 50%;
+        max-width: 100%;
         flex: 70%;
         padding: 20px;
     }
