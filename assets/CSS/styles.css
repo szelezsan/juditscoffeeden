@@ -519,13 +519,11 @@ footer {
 @media (min-width: 300px) and (max-width: 480px) {
     main {
         max-width: 100%;
-        flex: 50%;
+        flex: 100%;
         font-size: 3vw;
         margin: 2px;
         padding: 2px;
-        line-height: 15px;
-        columns: 1;
-        column-width: 100px;
+    
     }
 
     h1 {
