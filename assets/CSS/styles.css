@@ -518,11 +518,9 @@ footer {
 
 @media (min-width: 300px) and (max-width: 480px) {
     main {
-        max-width: 100%;
-        flex: 100%;
+        max-width: 50%;
         font-size: 1vw;
-        margin: 2px;
-        padding: 2px;
+       
     
     }
 
@@ -541,6 +539,7 @@ footer {
         /* The image used */
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
         max-height: 80px;
+        max-width: 100%;
 
         /* Center and scale the image nicely */
         background-position: center;
