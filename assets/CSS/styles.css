@@ -276,7 +276,7 @@ footer {
     background-color: rgb(243, 140, 6, 0.7);
 }
 
-@media (max-width: 1872px) and (orientation: landscape) {
+@media (max-width: 2000px) and (orientation: landscape) {
     body {
         max-width: 50%;
         flex: 70%;
