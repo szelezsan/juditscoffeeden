@@ -518,7 +518,7 @@ footer {
 
 @media (min-width: 300px) and (max-width: 480px) {
     main {
-        max-width: 50%;
+        max-width: 100%;
         font-size: 1vw;
        
     
