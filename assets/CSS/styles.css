@@ -528,19 +528,19 @@ footer {
 
     h1 {
         margin-bottom: 10px;
-        padding-bottom: 15px;
-        font-size: 3vw;
+        padding-bottom: 10px;
+        font-size: 2vw;
     }
 
     .clear {
         clear: both;
-        height: 60px;
+        height: 40px;
     }
 
     .bg-img {
         /* The image used */
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-        max-height: 100px;
+        max-height: 80px;
 
         /* Center and scale the image nicely */
         background-position: center;
@@ -552,10 +552,11 @@ footer {
     }
 
     footer {
-        margin-top: 80px;
+        margin-top: 20px;
         padding: 4px;
         font-size: 2vw;
         position: fixed;
+        text-align: center;
     }
 
     /* The navbar */
@@ -565,18 +566,18 @@ footer {
         padding: 10px;
         font-family: "Roboto", sans-serif;
         font-size: 1vw;
-        border-bottom: #fff;
         position: fixed;
     }
 
     /* Navbar links */
     .topnav a {
+        font-family: "Roboto", sans-serif;
         float: left;
         color: #ffffff;
         text-align: center;
         padding: 5px 7px;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 1vw;
     }
 
     .topnav a:hover {
