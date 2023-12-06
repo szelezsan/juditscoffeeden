@@ -297,10 +297,17 @@ footer {
     }
 
     #brewing-videos {
-      width:40%;
-      min-height:300px;
-      min-width:400px;
-      columns: 3;
+        width: 560px;
+        height: 315px;
+        max-width: 50%;
+        columns: 3;
+        justify-content: center;
+        display: inline-block;
+        position:static;
+        margin: 0 auto; 
+        padding:20px; 
+      }
+      
       justify-content: center;
       display: inline-block;
       position:static;
@@ -356,8 +363,6 @@ footer {
     
     #brewing-videos {
       width:40%;
-      min-height:300px;
-      min-width:400px;
       columns: 3;
       justify-content: center;
       display: inline-block;
@@ -490,7 +495,6 @@ footer {
 }
 #brewing-videos {
   width:40%;
-  min-height:300px;
   columns: 3;
   justify-content: center;
   display: inline-block;
@@ -637,10 +641,8 @@ footer {
     }
 
     #brewing-videos {
-      aspect-ratio: 100%;
-      min-width: 80px;
-      min-height: auto;
-      max-width: 100%;
+      width: 40%;
+      min-width: 150px;
       margin: 2px;
       padding: 2px;
     }
