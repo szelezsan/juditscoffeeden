@@ -390,7 +390,7 @@ footer {
 
 @media (min-width: 481px) and (max-width: 757px) {
     body {
-        max-width: 50%;
+        max-width: 100%;
         flex: 50%;
     }
 
@@ -451,6 +451,7 @@ footer {
         font-size: 1vw;
         border-bottom: #fff;
         position: fixed;
+        margin: 5px;
     }
 
     /* Navbar links */
@@ -502,7 +503,7 @@ footer {
     }
 
     #brewing-videos {
-        width: 40%;
+        width: 30%;
         columns: 3;
         justify-content: center;
         display: inline-block;
@@ -521,7 +522,8 @@ footer {
     main {
         max-width: 100%;
         font-size: 1vw;
-       
+        justify-content: center;
+        text-align: center;
     }
 
     h1 {
