@@ -120,7 +120,6 @@ h3 {
   width: 560px;
   height: 315px;
   max-width: 50%;
-  columns: 3;
   justify-content: center;
   display: inline-block;
   position:static;
@@ -143,7 +142,7 @@ h3 {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: both /* Allow the user to vertically and horizontally resize the textarea */
 }
 
 /* Style the submit button with a specific background color etc */
