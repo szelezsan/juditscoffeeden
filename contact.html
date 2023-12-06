@@ -1,72 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!--Imported Google font-->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-    </style> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/styles.css">
-
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Judit's Coffee Den</title>
-</head>
-<body>
-<!--Header and navigation-->
-<header>
-  <!-- Navbar on image inserted from W3 Schools-->
-  <div class="bg-img">
-      <div class="container">
-        <div class="topnav">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Me</a>
-          <a href="tips.html">Tips</a>
-          <a href="homebrew-videos.html">Videos</a>
-          <a href="contact.html">Contact Me</a>
+    <head>
+        <!--Imported Google font-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+        </style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/CSS/styles.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Judit's Coffee Den</title>
+    </head>
+    <body>
+        <!--Header and navigation-->
+        <header>
+            <!-- Navbar on image inserted from W3 Schools-->
+            <div class="bg-img">
+                <div class="container">
+                    <div class="topnav">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Me</a>
+                        <a href="tips.html">Tips</a>
+                        <a href="homebrew-videos.html">Videos</a>
+                        <a href="contact.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main content- contact form-->
+        <div class="contact">
+            <form action="https://formdump.codeinstitute.net">
+                <h1 class="message-header">Message Me</h1>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your e-mail address.." required>
+                <label for="mtype">Type of message</label>
+                <select id="mtype" name="mtype">
+                    <option value="professional">Professional Training Enquiry</option>
+                    <option value="homebrewer">Homebrewer Enquiry</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Shoot me a message! PS.:If you are overdosed with coffee that is not on me ;)." style="height:200px" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-      </div>
-    </div> 
-  </header>
-<!-- Main content- contact form-->
-<div class="contact">
-  <form action="https://formdump.codeinstitute.net">
-    <h1 class="message-header">Message Me</h1>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-    <label for="email">E-mail</label>
-    <input type="email" id="email" name="email" placeholder="Your e-mail address.." required>
-
-    <label for="mtype">Type of message</label>
-    <select id="mtype" name="mtype">
-      <option value="professional">Professional Training Enquiry</option>
-      <option value="homebrewer">Homebrewer Enquiry</option>
-      <option value="other">Other</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Shoot me a message! PS.:If you are overdosed with coffee that is not on me ;)." style="height:200px" required></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div> 
-<!--Keeps main content above footer so it is visible-->
-<div class="clear"></div>
-<footer>
-  <div>
-    <!--Footer with social media icons-->
-      <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a>
-      &copy; 2023 Judit’s Coffee Den
-      <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
-  </div>
-</footer>
-</body>
+        <!--Keeps main content above footer so it is visible-->
+        <div class="clear"></div>
+        <footer>
+            <div>
+                <!--Footer with social media icons-->
+                <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
+            </div>
+        </footer>
+    </body>
 </html>
