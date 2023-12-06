@@ -83,7 +83,7 @@ main a {
 }
 h1 {
     margin-bottom: 40px;
-    padding-bottom: 30;
+    padding-bottom: 30px;
 }
 
 p a {
@@ -278,7 +278,7 @@ footer {
 
 @media (max-width: 1872px) (orientation: landscape) {
     body {
-        max-width: 50%%;
+        max-width: 50%;
         flex: 70%%;
         padding: 20px;
     }
@@ -315,7 +315,7 @@ footer {
     }
 }
 
-@media (min-width: 757px, max-width: 1312px) {
+@media (min-width: 757px max-width: 1312px) {
     body {
         max-width: 100%;
         justify-content: center;
@@ -372,7 +372,6 @@ footer {
         font-size: 3vw;
         position: fixed;
     }
-}
 
 @media (min-width: 481px, max-width: 757px) {
     body {
