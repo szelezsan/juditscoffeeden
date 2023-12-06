@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 html {
   overflow-x: scroll; /* Adds horizontal bar option */
-  overflow-y: scroll; /* Adds vertical bar option /*
+  overflow-y: scroll; /* Adds vertical bar option */
 }
 /* Navigation styling from W3 Scools */
 .bg-img {
@@ -185,7 +185,7 @@ label{
 
 footer {
     font-family: 'Nova Square', sans-serif;
-    font-size: 20px;;
+    font-size: 15px;;
     position: fixed;
     left: 0;
     right: 0;
@@ -643,7 +643,16 @@ footer {
     #brewing-videos {
       width: 40%;
       min-width: 150px;
+      max-height: 50%;
       margin: 2px;
       padding: 2px;
+    }
+
+    .fa {
+      padding: 15px;
+      font-size: 2vw;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
     }
 }
