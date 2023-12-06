@@ -276,8 +276,8 @@ footer {
 .contact-form button:hover {
     background-color: rgb(243, 140, 6, 0.7);
 }
-
-@media (max-width: 2000px) and (orientation: landscape) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (mix-width: 1200px) {
     body {
         max-width: 100%;
         flex: 70%;
@@ -321,7 +321,8 @@ footer {
         padding: 15px;
     }
 }
-@media (min-width: 757px) and (max-width: 1312px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:992px) {
     body {
         max-width: 100%;
         justify-content: center;
@@ -387,8 +388,8 @@ footer {
         text-align: center;
         padding: 15px;
     }
-
-@media (min-width: 481px) and (max-width: 757px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768){
     body {
         max-width: 100%;
         flex: 50%;
@@ -517,7 +518,8 @@ footer {
         height: auto;
     }
 }
-@media (min-width: 481x) and (max-width: 758px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     main {
         max-width: 100%;
         font-size: 1vw;
@@ -659,8 +661,8 @@ footer {
         text-align: center;
         text-decoration: none;
     }}
-
-@media (min-width: 300px) and (max-width: 480px) {
+/* Extra small devices (phones, 600px and down) */
+@media screen (max-width: 600px) {
     main {
         max-width: 100%;
         font-size: 1vw;
