@@ -699,6 +699,14 @@ footer {
         text-align: center;
     }
 
+    .welcome-main {
+        max-width: 600px;
+        margin 0 auto;
+        padding 10px;
+    }
+
+
+
     h1 {
         margin-bottom: 10px;
         padding-bottom: 10px;
@@ -921,12 +929,11 @@ footer {
 
     /* Contact me styles */
     .contact {
-        font-size: 3vw;
-        font-family: "Roboto", sans-serif;
+       width: 80%;
     }
 
     .message-header {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     #contact {
@@ -938,14 +945,13 @@ footer {
     }
 
     .contact-form {
-        max-width: 200px;
+        padding: 10px;
+    }
+
+    .contact label, .contact input, .contact select, .contact textarea {
         width: 100%;
-        background-color: #fff;
-        padding: 5px;
-        border-radius: 3px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        justify-content: center;
-        text-align: center;
+        box-sizing: border-box;
+        margin-bottom: 10px;
     }
 
     .contact-form label {
@@ -953,15 +959,8 @@ footer {
         margin-bottom: 3px;
     }
 
-    .contact-form input [text-box],
-    .contact-form textarea {
-        padding: 3px;
-        margin-bottom: 16px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        justify-content: center;
-        max-width: 100%;
+    .contact textarea {
+        height: 100px;
     }
 
     .contact-form button {
