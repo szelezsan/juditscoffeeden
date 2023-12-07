@@ -861,16 +861,26 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media screen (max-width: 600px) {
     main {
-        max-width: 100%;
-        font-size: 1vw;
+        padding: 10px;
+    }
+
+    main div {
+        display: flex;
+        flex-wrap:wrap ;
         justify-content: center;
-        text-align: center;
+    }
+
+    main object {
+        width: 100%;
+        max-width: 150px;
+        height: auto; 
+        margin: 10px;
     }
 
     h1 {
         margin-bottom: 10px;
         padding-bottom: 10px;
-        font-size: 2vw;
+        font-size: 1em;
     }
 
     .clear {
