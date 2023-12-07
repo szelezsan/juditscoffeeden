@@ -440,6 +440,7 @@ footer {
         max-width: 1000px;
         flex: 100%;
         padding: 80px;
+        font-size: 3vw;
     }
 
     p {
