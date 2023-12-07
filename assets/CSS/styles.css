@@ -399,7 +399,7 @@ footer {
 
     footer {
         font-family: "Nova Square", sans-serif;
-        font-size: 15px;
+        font-size: 2vw;
         position: fixed;
         left: 0;
         right: 0;
@@ -410,6 +410,7 @@ footer {
         color: rgba(255, 123, 0, 0.7);
         text-align: center;
         padding: 15px;
+        padding-bottom: 20px;
     }
     
 }
