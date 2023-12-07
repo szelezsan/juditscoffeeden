@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development- Project 1
 
-![Mockup](assets/images/amireposnsible.png)
+![Mockup](mdimages/amireposnsible.png)
 
 Judit's Coffee Den is dedicated to homebrewers who are looking for tips to improve their at home coffee experience.
 The content is built around useful internal- and externail links, and a handful of youtube videos. everything you need in one place, no more researching and looking for hours on the internet.
@@ -144,6 +144,7 @@ Throughout the project I used Mozzilla we developer tools for resolving responsi
 The website was tested across Iphone 11 Pro, Ipad, Samsung phone, a very large monitor with 1920px width, and a Macbook air laptop.
 
 18. Code Validation
+All html and css codes are validated there are no error or warnings.
 
 
 

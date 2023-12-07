@@ -877,6 +877,10 @@ footer {
         padding: 10px;
     }
 
+    p {
+        font-size: 1em;
+    }
+
     main div {
         display: flex;
         flex-wrap:wrap ;
