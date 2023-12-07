@@ -942,10 +942,6 @@ footer {
        width: 100%;
     }
 
-    .message-header {
-        font-size: 2vw;
-    }
-
     #contact {
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
         background-size: cover;
