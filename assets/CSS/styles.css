@@ -70,6 +70,13 @@ main {
     text-align: center;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 .welcome-main {
     margin-top: 30px;
     margin-left: 100px;
@@ -290,6 +297,13 @@ footer {
         flex: 100%;
         padding: 80px;
     }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
+        text-align: center;
+    }
+
     .clear {
         clear: both;
         height: 60px;
@@ -340,6 +354,13 @@ footer {
         line-height: 25px;
         justify-content: center;
     }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
+        text-align: center;
+    }
+
     .bg-img {
         /* The image used */
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
@@ -418,6 +439,13 @@ footer {
         flex: 100%;
         padding: 80px;
     }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2vw;
+        text-align: center;
+    }
+
     .clear {
         clear: both;
         height: 60px;
@@ -469,6 +497,13 @@ footer {
         line-height: 25px;
         justify-content: center;
     }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2vw;
+        text-align: center;
+    }
+
     .bg-img {
         /* The image used */
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
@@ -543,6 +578,13 @@ footer {
         line-height: 15px;
     
     }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2vw;
+        text-align: center;
+    }
+
 
     h1 {
         margin-bottom: 40px;
@@ -661,6 +703,12 @@ footer {
         margin-bottom: 10px;
         padding-bottom: 10px;
         font-size: 2vw;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1vw;
+        text-align: center;
     }
 
     .clear {
