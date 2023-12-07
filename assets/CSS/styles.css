@@ -767,8 +767,19 @@ footer {
 
     /* Contact me styles */
     .contact {
-        font-size: 3vw;
+        font-size: 1vw;
         font-family: "Roboto", sans-serif;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+    .contact label, .contact input, .contact select, .contact textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
     }
 
     .message-header {
