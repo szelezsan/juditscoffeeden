@@ -399,6 +399,20 @@ footer {
         padding: 20px;
     }
 
+    .bg-img {
+        /* The image used */
+        background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
+        min-height: 300px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        /* Needed to position the navbar */
+        position: relative;
+    }
+
     main {
         max-width: fit-content;
         flex: 100%;
