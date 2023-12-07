@@ -701,8 +701,8 @@ footer {
 
     .welcome-main {
         max-width: 600px;
-        margin 0 auto;
-        padding 10px;
+        margin: 0 auto;
+        padding: 10px;
     }
 
 
@@ -859,7 +859,7 @@ footer {
         text-decoration: none;
     }}
 /* Extra small devices (phones, 600px and down) */
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
     main {
         padding: 10px;
     }
