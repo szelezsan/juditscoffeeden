@@ -67,9 +67,10 @@ This page contains a form, where you can choose from professional or homebrewing
 6. Color scheme
 
 Main colors used in the project:
-* rgb(243, 140, 6)
-* white
-* rgb(208, 15, 15)
+* Backgroundcolor: rgb(243, 140, 6)
+* Footer color, font color: #ffffff
+* Navigation background color: rgb(208, 15, 15)
+* Link colors: #000000
 
 This color combination gives a happy, bright webpage, with good contrast and vibrant color combination.
 
