@@ -435,7 +435,7 @@ footer {
     }
 
     main {
-        max-width: fit-content;
+        max-width: 1000px;
         flex: 100%;
         padding: 80px;
     }
