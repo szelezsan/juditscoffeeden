@@ -987,13 +987,6 @@ footer {
         background-color: rgb(243, 140, 6, 0.7);
     }
 
-    #brewing-videos {
-        width: 30%;
-        min-width: 80px;
-        max-height: 50%;
-        margin: 2px;
-        padding: 2px;
-    }
 
     .fa {
         padding: 15px;
