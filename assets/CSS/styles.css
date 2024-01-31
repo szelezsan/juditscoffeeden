@@ -108,10 +108,23 @@ h3 {
     font-size: 30px;
 }
 
-.retail-links {
+.fpaper {
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 25px;
+    padding: 1vw;
+    width: 30%;
     text-align: center;
+    justify-content: center;
+}
+
+.retail-links {
     font-weight: 500;
     font-family: "Rototo", sans-serif;
+}
+
+.filter {
+    text-align: left;
+    margin-left: 9vw;
 }
 
 .tips {
@@ -415,7 +428,7 @@ footer {
     
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (mix-width: 1200px) {
+@media (max-width: 1200px) {
     body {
         max-width: 100%;
         flex: 70%;
@@ -566,6 +579,7 @@ footer {
         text-align: center;
         padding: 15px;
     }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768){
     body {
@@ -871,8 +885,9 @@ footer {
         text-align: center;
         text-decoration: none;
     }}
+
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     main {
         padding: 10px;
     }
@@ -908,8 +923,8 @@ footer {
     .bg-img {
         /* The image used */
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
-        max-height: 80px;
-        max-width: 100%;
+        max-height: 10vw;
+        max-width: 50vh;
 
         /* Center and scale the image nicely */
         background-position: center;
@@ -920,22 +935,22 @@ footer {
         position: relative;
     }
 
-    footer {
-        margin-top: 20px;
-        padding: 4px;
+    .footer {
+        margin-top: 5vh;
+        padding: 6vw;
         font-size: 2vw;
         position: fixed;
         text-align: center;
+        max-width:100%;
     }
 
     /* The navbar */
     .topnav {
-        overflow: hidden;
-        background-color: rgb(208, 15, 15);
-        padding: 5px;
-        font-family: "Roboto", sans-serif;
-        font-size: 1vw;
-        position: fixed;
+        width: 9vw;
+        max-width: 80%;
+        height: 4vh;
+        background-color: rgb(255, 0, 0);
+        margin: 6px 0;
     }
 
     /* Navbar links */
@@ -957,13 +972,15 @@ footer {
     /* Contact me styles */
     .contact {
        width: 100%;
+       padding: 3vw;
+       width: 100px;
+
     }
 
     #contact {
         background-image: url(/juditscoffeeden/assets/images/guitarheader.jpg);
         background-size: cover;
         background-position: 50%;
-        padding: 5px 10% 0 10%;
         flex-grow: 1;
     }
 
