@@ -160,3 +160,5 @@ Coffee hardness specifics found: (https://www.baristainstitute.com/node/275)
 Code for video insertion: (https://stackoverflow.com/questions/3755007/embedded-youtube-code-does-not-validate)
 
 Video Content : (https://Youtube.com)
+
+Hamburger menu: https://reintech.io/blog/creating-responsive-hamburger-menu-button-with-css
