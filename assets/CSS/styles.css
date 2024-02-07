@@ -12,8 +12,7 @@ html {
 }
 
 nav {
-    background-color:rgb(251, 8, 8);
-    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+    display: inline-flex;
 }
 
 nav ul {
@@ -25,7 +24,7 @@ nav ul {
 }
 
 nav li {
-    height: 6vh;
+    height: 3vh;
     margin-top: 15px;
     justify-content: center;
     text-align: center;
@@ -56,7 +55,7 @@ nav a:hover{
     height: 100vh;
     width: 70%;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.439);
+    background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
     display: flex;
@@ -64,7 +63,8 @@ nav a:hover{
     align-items: flex-start;
     justify-content: flex-start;
     color: rgb(251, 8, 8);
-    font-family:'Special Elite', system-ui;}
+    font-family:'Special Elite', system-ui;
+}
 
 .sidebar li{
     width: 100%;
@@ -122,6 +122,21 @@ body {
     text-align: left;
     min-height: 50vh;
 } 
+
+header{
+    background-color:rgb(251, 8, 8);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+}
+
+.header-name {
+    font-family:'DM Serif Display', serif;
+    color:rgb(255, 255, 255);
+    font-size: 7vw;
+    margin-bottom: 0;
+    margin: 2vh;
+    padding: auto;
+    display:inline-flex;
+}
 
 .welcome-main {
     padding: 0;
@@ -243,7 +258,7 @@ input[type="email"],
 select,
 textarea {
     width: 100%; /* Full width */
-    padding: 5px; /* Some padding */
+    padding: 4px; /* Some padding */
     border: 1px solid rgb(251, 8, 8); /*Border color */
     border-radius: 5px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -254,12 +269,13 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-    background-color: rgba(228, 122, 15);
+    background-color: rgb(251, 8, 8);
     color: #ffffff;
     padding: 3vh 3vw;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    justify-content: center;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -271,8 +287,8 @@ input[type="submit"]:hover {
 .contact {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding-top: 15px;
-    margin: 2vw;
+    padding: 3vw;
+    margin: 3vw;
     justify-content: center;
 }
 
@@ -291,6 +307,8 @@ label {
 .footer {
     text-align: center;
     font-family: 'Special Elite', system-ui;
+    text-align: center;
+    justify-content:center;
     font-size: 4vw;
     position: fixed;
     left: 0;
@@ -298,10 +316,11 @@ label {
     bottom: 0;
     width: 100%;
     max-height: 2vh;
-    background: rgb(255, 255, 255);
-    color: rgb(208, 15, 15);
-    padding: 2vw;
-    margin-bottom: 3vh;
+    background: rgb(251, 8, 8);
+    color: rgb(255, 255, 255);
+    padding: 3vw;
+    padding-bottom: 2vw;
+    margin-bottom:2vh;
 }
 
 /* Social media icon styling */
@@ -319,7 +338,7 @@ label {
 /* Facebook styling */
 .fa-facebook {
     background: none;
-    color: rgb(208, 15, 15);
+    color: rgb(255, 255, 255);
     margin-right: 3vw;
 
 }
@@ -327,7 +346,7 @@ label {
 /* Instagram styling */
 .fa-instagram {
     background: none;
-    color:rgb(208, 15, 15);
+    color:rgb(255, 255, 255);
     margin-left: 3vw;
 }
 
