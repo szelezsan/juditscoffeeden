@@ -44,7 +44,8 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(40, 92, 21);
+    background-color:rgb(120, 19, 19)
+    color:rgb(255, 255, 255)
 }
 
 /*Vertical nav menu */
@@ -102,31 +103,6 @@ nav a:hover{
     background: rgb(255, 255, 255);
 }
 
-/* The navbar */
-.topnav {
-    overflow: hidden;
-    position:relative;
-    background:rgb(208, 15, 15);
-    border-radius:5vw;
-    padding: 1vw;
-    margin-top: 2vh;
-}
-
-/* Navbar links */
-.topnav a {
-    color: #ffffff;
-    font-size: 15px;
-    padding: 2vw;
-    justify-content: space-around;
-}
-
-.topnav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-    border-radius: 20vw;
-
-}
-
 body {
     background-image: url("/assets/images/redcoffeepexels.jpg");
     background-position: center center;
@@ -137,14 +113,25 @@ body {
     min-height: 100vh;
 }
 
+.body-tips{
+    background-image: url("/assets/images/redcoffeepexels.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(251, 8, 8);
+    text-align: left;
+    min-height: 50vh;
+} 
+
 .welcome-main {
     padding: 0;
     margin: 1vw;
     background-color: rgba(255, 255, 255, 0.6);
     height: 100%;
+    font-family:'DM Serif Display', serif;
 }
 
-.welcome {
+.welcome-tips {
     font-family:'DM Serif Display', serif;
     font-size: 6vw;
     color: rgb(0, 0, 0);
@@ -155,6 +142,15 @@ body {
 .welcome a {
     color: rgb(120, 19, 19);
     font-weight: 400;
+}
+
+.main {
+    font-family:'DM Serif Display', serif;
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+    margin: 1vw;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.6);
 }
 
 .home {
@@ -175,26 +171,39 @@ p a {
 
 .clear {
     clear: both;
-    height: 60px;
+    height: 6vh;
 }
 
 h3 {
     font-family: 'DM Serif Display', serif;
     text-align: center;
-    font-size: 6vw;
+    font-size: 8vw;
+    color: rgb(120, 19, 19);
+    text-decoration: underline;
 }
 
 .fpaper {
-    background-color: rgb(255, 255, 255, 0.6);
-    font-size: 3vw;
-    text-align: center;
-    justify-content: center;
-    font-family: 'DM Serif Display', serif;;
+    font-family:'DM Serif Display', serif;
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+    margin: 1vw;
+    height: 100%;
 }
 
 .retail-links {
-    font-weight: 500;
-    font-family: "Rototo", sans-serif;
+    font-family:'DM Serif Display', serif;
+    font-size: 7vw;
+    color: rgb(0, 0, 0);
+    margin: 1vw;
+    height: 100%;
+}
+
+a {
+    font-family:'DM Serif Display', serif;
+    font-size: 5vw;
+    color: rgb(143, 73, 6);
+    margin: 1vw;
+    height: 100%; 
 }
 
 .filter {
@@ -234,9 +243,9 @@ input[type="email"],
 select,
 textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid rgb(231, 139, 9); /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    padding: 5px; /* Some padding */
+    border: 1px solid rgb(251, 8, 8); /*Border color */
+    border-radius: 5px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
@@ -247,7 +256,7 @@ textarea {
 input[type="submit"] {
     background-color: rgba(228, 122, 15);
     color: #ffffff;
-    padding: 12px 10px;
+    padding: 3vh 3vw;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -255,16 +264,15 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-    background-color: rgba(228, 122, 15);
+    background-color: rgb(251, 8, 8);
 }
 
 /* Add a background color and some padding around the form */
 .contact {
     border-radius: 5px;
     background-color: #f2f2f2;
-    margin: 50px;
-    padding: 20px;
     padding-top: 15px;
+    margin: 2vw;
     justify-content: center;
 }
 
@@ -370,4 +378,11 @@ label {
 
 .contact-form button:hover {
     background-color: rgb(243, 140, 6, 0.7);
+}
+
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
 }

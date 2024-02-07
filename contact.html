@@ -4,6 +4,10 @@
         <!--Imported Google font-->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
         </style>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,14 +34,15 @@
             
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tips.html">Tips</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="homebrew-videos.html">Videos</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                        <li class="hideOnMobile"><a href="tips.html">Tips</a></li>
+                        <li class="hideOnMobile"><a href="about.html">About</a></li>
+                        <li class="hideOnMobile"><a href="homebrew-videos.html">Videos</a></li>
+                        <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
                         <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                     </ul>
                 </nav>
+            
         </header>
         <main>
           <h1 class="home">Message me</h1>
@@ -62,14 +67,14 @@
             </form>
         </div>
       </main>
-        <!--Keeps main content above footer so it is visible-->
-        <div class="clear"></div>
-        <footer>
-            <div>
-                <!--Footer with social media icons-->
-                <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
-            </div>
+      <div class="clear"></div>
+      <footer>
+          <div class="footer">
+             <!--Footer with social media icons-->
+              <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
+          </div>
         </footer>
+        
         <script>
             function showSidebar(){
                 const sidebar =document.querySelector('.sidebar')
