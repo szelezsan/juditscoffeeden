@@ -3,11 +3,12 @@
 html {
     overflow-x: scroll; /* Adds horizontal bar option */
     overflow-y: scroll; /* Adds vertical bar option */
+    
 }
 
 body {
     padding: 1vw;
-    margin: 1vw;
+    margin: 2vw;
 }
 
 .logo {
@@ -20,18 +21,19 @@ body {
 
 
 .name {
-    color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 8vw;
     margin-top: 1vh;
     padding-top:1vh;
     padding-bottom: 0;
+    color: rgb(255, 255, 255);
 
 }
 
 .name:hover {
-    color:rgb(208, 15, 15)
+    color:rgb(208, 15, 15);
+    background: rgb(255, 255, 255);
 }
 
 /* The navbar */
@@ -42,29 +44,6 @@ body {
     border-radius:5vw;
     padding: 1vw;
     margin-top: 2vh;
-}
-
-/* Hamburger menu- code from: https://reintech.io/blog/creating-responsive-hamburger-menu-button-with-css*/
-.hamburger span {
-    display:block;
-    width: 35px;
-    height: 3px;
-    margin: 6px;
-    color: rgb(208, 15, 15);
-    background-color: rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-
-.hamburger.active span:nth-child(1) {
-    transform:rotate(-45defg) translate(-9px, 6px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity:0;
-}
-
-.hamburger.active span:nth-child(3) {
-    transform:rotate(45deg) translate(-8px,-8px);
 }
 
 /* Navbar links */
@@ -83,7 +62,11 @@ body {
 }
 
 body {
-    background-color: rgba(255, 128, 0, 0.755);
+    background-image: url("/assets/images/redcoffeepexels.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(251, 8, 8);
     text-align: left;
     margin:10px;
 }
@@ -95,26 +78,31 @@ body {
 
 .welcome {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    margin: 1vw;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .welcome a {
-    color: rgb(0, 0, 0);
+    color: rgb(120, 19, 19);
     font-weight: 400;
 }
 
-h1 {
-    margin-bottom: 40px;
-    padding-bottom: 30px;
+.home {
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+    color:rgb(120, 19, 19);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1:hover {
+.home:hover {
     color: rgb(208, 15, 15);
 }
 
 p a {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .clear {
@@ -125,7 +113,7 @@ p a {
 h3 {
     font-family: "Roboto", sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .fpaper {
@@ -226,30 +214,26 @@ label {
 }
 /* Footer syling */
 .footer {
+    text-align: center;
     font-family: "Nova Square", sans-serif;
-    font-size: 1vw;
+    font-size: 4vw;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
-    max-height: 40px;
+    max-height: 2vh;
     background: rgb(255, 255, 255);
-    color: rgba(255, 123, 0, 0.7);
-    text-align: center;
-    padding: 1vw;
-    margin-bottom: 5vh;
-    justify-content: center;
+    color: rgb(208, 15, 15);
+    padding: 2vw;
+    margin-bottom: 3vh;
 }
 
 /* Social media icon styling */
 /* Style all font awesome icons */
 .fa {
-    padding: 9vw;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
     text-decoration: none;
+    padding: 1vw;
 }
 
 /* Hover effect for social icons */
@@ -260,14 +244,15 @@ label {
 /* Facebook styling */
 .fa-facebook {
     background: none;
-    color: rgba(255, 123, 0, 0.7);
+    color: rgb(208, 15, 15);
     margin-right: 3vw;
+
 }
 
 /* Instagram styling */
 .fa-instagram {
     background: none;
-    color: rgba(255, 123, 0, 0.7);
+    color:rgb(208, 15, 15);
     margin-left: 3vw;
 }
 
