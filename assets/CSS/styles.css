@@ -6,9 +6,76 @@ html {
     
 }
 
-body {
-    padding: 1vw;
-    margin: 2vw;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:rgb(251, 8, 8);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 6vh;
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 2vw;
+    text-decoration: none;
+    display:flex;
+    color: rgb(255, 255, 255);
+    font-family:'Special Elite', system-ui;
+    font-size: 13px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: rgb(40, 92, 21);
+}
+
+/*Vertical nav menu */
+.sidebar{
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width: 70%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.439);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(251, 8, 8);
+    font-family:'Special Elite', system-ui;}
+
+.sidebar li{
+    width: 100%;
+    padding: 4vw;
+}
+
+.sidebar a{
+    width: 100%;
+    color: rgb(251, 8, 8);
+    font-weight: 500px;
+    font-size: 8vw;
+    font-family:'Special Elite', system-ui;
 }
 
 .logo {
@@ -19,9 +86,8 @@ body {
     float: inline-start;
 }
 
-
 .name {
-    font-family: "Roboto", sans-serif;
+    font-family: 'DM Serif Display', serif;
     text-align: center;
     font-size: 8vw;
     margin-top: 1vh;
@@ -68,20 +134,22 @@ body {
     background-size: cover;
     background-color:rgb(251, 8, 8);
     text-align: left;
-    margin:10px;
+    min-height: 100vh;
 }
 
 .welcome-main {
     padding: 0;
     margin: 1vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
 }
 
 .welcome {
-    font-family: 'Roboto', sans-serif;
-    font-size: 5vw;
+    font-family:'DM Serif Display', serif;
+    font-size: 6vw;
     color: rgb(0, 0, 0);
     margin: 1vw;
-    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
 }
 
 .welcome a {
@@ -94,7 +162,7 @@ body {
     padding-bottom: 1vh;
     color:rgb(120, 19, 19);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DM Serif Display', serif;
 }
 
 .home:hover {
@@ -111,18 +179,17 @@ p a {
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
+    font-family: 'DM Serif Display', serif;
     text-align: center;
-    font-size: 2vw;
+    font-size: 6vw;
 }
 
 .fpaper {
     background-color: rgb(255, 255, 255, 0.6);
-    border-radius: 25px;
-    padding: 1vw;
-    width: 30%;
+    font-size: 3vw;
     text-align: center;
     justify-content: center;
+    font-family: 'DM Serif Display', serif;;
 }
 
 .retail-links {
@@ -215,7 +282,7 @@ label {
 /* Footer syling */
 .footer {
     text-align: center;
-    font-family: "Nova Square", sans-serif;
+    font-family: 'Special Elite', system-ui;
     font-size: 4vw;
     position: fixed;
     left: 0;

@@ -16,21 +16,31 @@
     <body>
         <!--Header and navigation-->
         <header>
-            <!-- Navbar on image inserted from W3 Schools-->
-            <div class="bg-img">
-                <div class="container">
-                    <div class="topnav">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About Me</a>
-                        <a href="tips.html">Tips</a>
-                        <a href="homebrew-videos.html">Videos</a>
-                        <a href="contact.html">Contact Me</a>
-                    </div>
-                </div>
-            </div>
+            <header class="header">
+                <nav>
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tips.html">Tips</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="homebrew-videos.html">Videos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tips.html">Tips</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="homebrew-videos.html">Videos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    </ul>
+                </nav>
         </header>
         <main>
-          <h1>Message me</h1>
+          <h1 class="home">Message me</h1>
         <!-- Main content- contact form-->
         <div class="contact">
             <form action="https://formdump.codeinstitute.net">
@@ -60,5 +70,16 @@
                 <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
             </div>
         </footer>
+        <script>
+            function showSidebar(){
+                const sidebar =document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+
+            function hideSidebar(){
+                const sidebar =document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
     </body>
 </html>
