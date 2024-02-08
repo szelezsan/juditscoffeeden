@@ -231,15 +231,15 @@ h3 {
 
 .retail-links {
     font-family:'DM Serif Display', serif;
-    font-size: 7vw;
-    color: rgb(251, 8, 8);
+    font-size: 6vw;
+    color: rgb(255, 255, 255));
     margin: 1vw;
     height: 100%;
 }
 
 a {
     font-family:'DM Serif Display', serif;
-    font-size: 5vw;
+    font-size: 6vw;
     color: rgb(255, 255, 255);
     margin: 1vw;
     height: 100%; 
@@ -250,13 +250,6 @@ a {
     margin-left: 9vw;
 }
 
-.tips {
-    color: white;
-    font-family: "Nova Square", sans-serif, thin;
-    font-size: 1vw;
-    text-align: center;
-    width: 100%;
-}
 /* Styling for inserted yourube videos */
 #brewing-videos {
     aspect-ratio:  16/9;
