@@ -3,7 +3,6 @@
 html {
     overflow-x: scroll; /* Adds horizontal bar option */
     overflow-y: scroll; /* Adds vertical bar option */
-    
 }
 
 * {
@@ -122,6 +121,8 @@ body {
     background-color:rgb(251, 8, 8);
     text-align: left;
     min-height: 100vh;
+    max-width: 100%;
+    padding: 1vw;
 }
 
 .body-tips{
@@ -157,7 +158,6 @@ header{
 .welcome-main {
     padding: 3vw;
     background-color: rgba(255, 255, 255, 0.6);
-    height: 100%;
     width:100%;
     font-family:'DM Serif Display', serif;
     justify-content: center;
@@ -166,7 +166,7 @@ header{
 }
 
 .welcome-tips {
-    ffont-family:'DM Serif Display', serif;
+    font-family:'DM Serif Display', serif;
     font-size: 6vw;
     color: rgb(0, 0, 0);
     padding: 3vw;
@@ -187,7 +187,7 @@ header{
     color: rgb(0, 0, 0);
     padding: 3vw;
     padding-bottom: 4vh;
-    height: 100%;
+    max-width: 100%;
     background-color: rgb(255, 255, 255, 0.6);
     justify-content: center;
 }
@@ -214,10 +214,10 @@ p a {
 }
 
 h3 {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Display', serif, italic;
     text-align: center;
     font-size: 8vw;
-    color: rgb(120, 19, 19);
+    color: rgb(251, 8, 8);
     text-decoration: underline;
 }
 
@@ -254,11 +254,15 @@ a {
 #brewing-videos {
     aspect-ratio:  16/9;
     max-width: 100%;
+    margin:auto;
+    padding: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .videos-main {
-    margin: 3vw;
     justify-content: center;
+    margin: 4vw;
 }
 
 /* styling for grind size photos on Tips.html */
