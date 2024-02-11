@@ -33,7 +33,6 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-        
             <nav>
                 <ul>
                     <li class="hideOnMobile"><a href="index.html">Home</a></li>
@@ -44,12 +43,10 @@
                     <li onclick="showSidebar()" class="burger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" fill="white" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
                 </ul>
             </nav>
-        
-    </header>
-          <main class="videos-main">
+        </header>
+        <main>
             <h1 class="home">Videos</h1>
-            <div>
-                <!-- Code for Object attribute was inserted from Stackflow.com as youtube inserted embedding code came up as error -->
+            <div class="video-main">
                 <object type="application/x-shockwave-flash" data="https://www.youtube.com/embed/pwLXQ3VANb8?si=hUiGIT7coa0_lfLL"></object>
                 <object type="application/x-shockwave-flash" data="https://www.youtube.com/embed/LcPXaCIfB68?si=H9Wzxq7w-wNR6BEb"></object>
                 <object type="application/x-shockwave-flash" data="https://www.youtube.com/embed/EVqkR9a-ncA?si=dP65R-FYNC6spZSm"></object>
@@ -63,25 +60,25 @@
                 <object type="application/x-shockwave-flash" data="https://www.youtube.com/embed/6YMgB61WyvE?si=As8yFopuutc3FkzI"></object>
                 <object type="application/x-shockwave-flash" data="https://www.youtube.com/embed/HWt4XlAUA50?si=4fiF9jU13rof7QiJ"></object>
             </div>
-          </main>
-            <!--Keeps main content above footer so it is visible-->
-            <div class="clear"></div>
-            <footer>
-                <div class="footer">
-                    <!--Footer with social media icons-->
-                    <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
-                </div>
-            </footer>
-            <script>
-                function showSidebar(){
-                    const sidebar =document.querySelector('.sidebar')
-                    sidebar.style.display = 'flex'
-                }
+        </main>
+        <!--Keeps main content above footer so it is visible-->
+        <div class="clear"></div>
+        <footer>
+            <div class="footer">
+                <!--Footer with social media icons-->
+                <a href="https://www.facebook.com/juditszelezsan" class="fa fa-facebook" target="_blank"></a> &copy; 2023 Judit’s Coffee Den <a href="https://www.instagram.com/juditszelezsan/" class="fa fa-instagram" target="_blank"></a>
+            </div>
+        </footer>
+        <script>
+            function showSidebar(){
+                const sidebar =document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
     
-                function hideSidebar(){
-                    const sidebar =document.querySelector('.sidebar')
-                    sidebar.style.display = 'none'
-                }
-            </script>
+            function hideSidebar(){
+                const sidebar =document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
     </body>
 </html>
