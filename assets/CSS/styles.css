@@ -267,15 +267,18 @@ a {
     aspect-ratio: 16/9;
     max-width: 100%;
     transform: translate(-50%, -50%);
-}
+    padding-left: 5vw;
+};
 
 .video{
-    padding: 3vw;
-    padding-left: 5px;
+    padding: 4vw;
 }
 
 object{
     justify-content: center;
+    display:flex;
+    padding: 5px;
+    padding-left:9vw;
 }
 
 .video-main{
