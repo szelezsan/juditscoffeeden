@@ -11,20 +11,18 @@ html {
 }
 
 .burger {
-    justify-content:right;
+    justify-content:inline-flex;
     margin: 0;
-    position: absolute;
     right: 10px;
-    top:0;
-    bottom: 4px;
+    top:20px;
     height:15vw;
     width: 15vw;
 }
 
 nav {
     display: inline-flex;
-    height: 100%;
-    width: 100%;
+    width: 20%;
+    justify-content: right;
 }
 
 nav ul {
@@ -96,9 +94,8 @@ nav a{
     font-family: 'DM Serif Display', serif;
     text-align: center;
     font-size: 6vw;
-    margin-top: 1vh;
-    padding-top:1vh;
-    padding-bottom: 0;
+    margin-top: 10px;
+    padding-top:3px;
     color: rgb(255, 255, 255);
 }
 
@@ -113,9 +110,8 @@ body {
     background-size: cover;
     background-color:rgb(251, 8, 8);
     text-align: left;
-    min-height: 100vh;
     max-width: 100%;
-    padding: 1vw;
+    padding: 3px;
     justify-content:center ;
 }
 
@@ -135,17 +131,16 @@ header{
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     font-family:'DM Serif Display', serif;
     color:rgb(255, 255, 255);
-    font-size: 5vw;
-    justify-content: space-between;
+    justify-content: inline-flex;
     width: 100%;
-    height: 8vh;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .header-name {
     font-family:'DM Serif Display', serif;
     color:rgb(255, 255, 255);
     font-size: 6vw;
-    margin: 2vh;
     display:inline-flex;
 }
 
@@ -279,6 +274,8 @@ object{
     display:flex;
     padding: 5px;
     padding-left:9vw;
+    width:80%;
+    height:50%;
 }
 
 .video-main{
@@ -450,6 +447,11 @@ label {
 
 /* Laptops, Desktops, 1025px to 1280px */
 @media (min-width:1025px) and (max-width:1280px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
     .sidebar{
         display: none;
     }
@@ -552,6 +554,14 @@ label {
         margin: 3vw;
     }
 
+    object{
+        justify-content: center;
+        display:flex;
+        padding: 18px;
+        width:30%;
+        height:10%;
+    }
+
     input[type="submit"] {
         margin-left:40vw;
         text-align:center;
@@ -565,6 +575,11 @@ label {
 
 /* Tablets/Ipads, 768px to 1024px */
 @media (min-width:768px) and (max-width:1024px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
     html {
         width: 100%;
         height: 100%;
@@ -606,7 +621,7 @@ label {
 
     .header{
         justify-content: inline-flex;
-        height: 20vh;
+        height: 10vh;
     }
 
     .header-name {
@@ -616,7 +631,7 @@ label {
     }
 
     .home {
-        font-size: 3rem;
+        font-size: 20px;
     }
 
     .footer {
