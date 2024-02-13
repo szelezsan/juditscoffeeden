@@ -166,7 +166,7 @@ header{
     font-size: 6vw;
 }
 
-.welcome-tips {
+.welcome-tips{
     font-family:'DM Serif Display', serif;
     font-size: 6vw;
     color: rgb(0, 0, 0);
@@ -190,7 +190,7 @@ header{
     color:rgb(0, 0, 0);
 }
 
-.main {
+.main, .main-tips {
     font-family:'DM Serif Display', serif;
     font-size: 6vw;
     color: rgb(0, 0, 0);
@@ -450,9 +450,16 @@ label {
         padding:20px;
     }
     
+    .burger{
+        display: none;
+    }
 
     .sidebar{
         display: none;
+    }
+
+    .hideOnMobile{
+        display: inline-flex;
     }
 
     .header {
@@ -464,7 +471,6 @@ label {
         width: 30%;
         height: 100px;
         position: relative;
-        top:-130px;
         font-size: 30px;
         left:30px;
     }
@@ -476,7 +482,6 @@ label {
         position: relative;
         top:-130px;
         right: -100px;
-        
     }
 
     .home{
@@ -587,15 +592,17 @@ label {
     }
 
     .header{
-        padding:10px;
+        padding:15px;
         display:inline-flex;
         columns: 2;
         width: 100%;
     }
 
     .header-name{
-        font-size: 20px;
+        font-size: 25px;
         padding-left: 5px;
+        position: relative;
+        top:-20px;
     }
 
     .burger{
@@ -606,13 +613,22 @@ label {
         display:inline;
     }
 
+    .menu a{
+        justify-content: right;
+        padding: 15px;
+        font-size: 20px;
+        position: relative;
+        top:-50px;
+        right:50px;
+    
+    }
+
     nav{
-        padding-left:15px;
+        padding-right:10px;
         display:inline-block;
         width:40%;
         top: 5px;
         bottom: 10px;
-        
     }
     
     nav a{
@@ -620,11 +636,15 @@ label {
         padding:5px;
     }
 
-    body{
+    body, .body-tips, .body-about, .body-vid, .main-tips{
         height: 100%;
         width:100%;
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+    .body-tips, .body-about, .body-vid{
+        padding-top: 40px;
     }
 
     .home{
@@ -632,10 +652,6 @@ label {
     }
 
     main p{
-        font-size: 30px;
-    }
-
-    .welcome{
         font-size: 30px;
     }
 
@@ -647,8 +663,9 @@ label {
         color: rgb(0, 0, 0);
     }
 
-    .welcome-tips{
+    .welcome, .welcome-tips, .main, .contact-main, .main-tips{
         font-size: 30px;
+        padding-top: 20px;
     }
 
     .welcome-tips a{
@@ -682,7 +699,6 @@ label {
     .video-main{
         width: 100%;
         justify-content: center;
-        margin: 3vw;
     }
 
     object{
@@ -860,12 +876,16 @@ label {
 }
 
 /* Most of smartphones-portrait, 320px to 479px */
-@media (mind-width:320px) and (max-width:480px){
+@media (min-width:320px) and (max-width:480px){
     .sidebar{
         display: none;
     }
 
     .hideOnMobile{
         display: none;
+    }
+
+    body{
+        width:100%;
     }
 }
