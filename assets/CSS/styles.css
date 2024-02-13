@@ -705,6 +705,10 @@ label {
         margin: 0;
         padding: 0;
     }
+
+    .hideOnMobile{
+        display: none;
+    }
     
     html {
         width: 100%;
@@ -820,10 +824,14 @@ label {
 
 /* Low resolution tablets, mobiles-Landscape, 481px to 767px */
 @media (min-width:481px) and (max-width:767px){
-
+    .hideOnMobile{
+        display: none;
+    }
 }
 
 /* Most of smartphones-portrait, 320px to 479px */
 @media (mind-width:320px) and (max-width:480px){
-
+    .hideOnMobile{
+        display: none;
+    }
 }}
