@@ -162,3 +162,5 @@ Code for video insertion: (https://stackoverflow.com/questions/3755007/embedded-
 Video Content : (https://Youtube.com)
 
 Hamburger menu: https://reintech.io/blog/creating-responsive-hamburger-menu-button-with-css
+
+Background Photo: https://www.pexels.com/photo/white-mug-on-red-background-2916450/

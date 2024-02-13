@@ -52,6 +52,10 @@ nav a{
     text-align: center;
 }
 
+nav a:hover{
+    color:rgb(0, 0, 0);
+}
+
 /*Vertical nav menu */
 .sidebar{
     position: fixed;
@@ -321,7 +325,12 @@ input[type="submit"] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
-    background-color: rgb(251, 8, 8);
+    background-color: rgb(255, 255, 255);
+    color:rgb(251, 8, 8);
+}
+
+.contact-main{
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Add a background color and some padding around the form */
@@ -333,16 +342,9 @@ input[type="submit"]:hover {
     justify-content: center;
 }
 
-.message-header {
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    color: rgb(255, 123, 0);
-    padding-top: 0;
-    text-align: center;
-}
 label {
     font-family: "Roboto", sans-serif;
-    color: rgb(255, 123, 0);
+    color: rgb(251, 8, 8);
 }
 /* Footer syling */
 .footer {
@@ -425,7 +427,7 @@ label {
 }
 
 .contact-form button {
-    background-color: rgb(243, 140, 6, 0.7);
+    background-color: rgb(251, 8, 8);
     color: #fff;
     padding: 10px;
     border: none;
@@ -438,12 +440,149 @@ label {
     background-color: rgb(243, 140, 6, 0.7);
 }
 
+
 /* Desktops, 1281px to higher resolution */
-@media(max-width: 1281px){
-    .hideOnMobile{
+@media(min-width: 1281px){
+    .body-tips{
+        padding-top: 60px;
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    
+    .main{
+        height: 100%;
+        width:100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .main p{
+        padding:20px;
+    }
+
+    .sidebar{
         display: none;
     }
+
+    .header {
+        height:40px;
+        padding:20px;
+    }
+
+    .header-name{
+        width: 30%;
+        height: 100px;
+        position: relative;
+        top:-130px;
+        font-size: 30px;
+        left:30px;
+    }
+
+    .menu a{
+        justify-content: right;
+        padding: 15px;
+        font-size: 25px;
+        position: relative;
+        top:-130px;
+        right: -100px;
+        
+    }
+
+    .home{
+        font-size: 50px;
+    }
+
+    main p{
+        font-size: 30px;
+    }
+
+    .welcome{
+        font-size: 30px;
+        padding:20px;
+    }
+
+    .welcome a{
+        font-size: 30px;
+    }
+
+    .welcome-tips{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .welcome-tips a{
+        font-size: 30px;
+    }
+
+    .welcome-tips a:hover{
+        color:rgb(0, 0, 0);
+    }
+
+    h3{
+        font-size: 35px;
+    }
+    
+    .retail-links a{
+        font-size:30px;
+        padding:10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .retail-links a:hover{
+        color:rgb(0, 0, 0);
+    }
+
+    .footer{
+        font-size: 2vw;
+        margin-bottom: 5px;
+    }
+
+    .videos-div{
+        margin:10px;
+    }
+
+    .video{
+        display: inline-flex;
+    }
+
+    .video-main{
+        width: 100%;
+        justify-content: center;
+        margin: 3vw;
+    }
+
+    object{
+        justify-content: center;
+        display:flex;
+        padding: 18px;
+        width:30%;
+        height:10%;
+    }
+
+    input[type="submit"] {
+        background-color: rgb(251, 8, 8);
+        color: #ffffff;
+        padding: 4vh 4vw;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 150px;
+        justify-content: center;
+    }
+
+    input[value=Submit]{
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+
 }
+
+
+
 
 /* Laptops, Desktops, 1025px to 1280px */
 @media (min-width:1025px) and (max-width:1280px){
@@ -493,7 +632,8 @@ label {
     body{
         height: 100%;
         width:100%;
-        margin:5px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .home{
