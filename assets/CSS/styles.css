@@ -11,7 +11,7 @@ html {
 }
 
 .burger {
-    justify-content:inline-flex;
+    justify-content:right;
     margin: 0;
     right: 10px;
     top:20px;
@@ -82,14 +82,14 @@ nav a:hover{
 .sidebar li{
     width: 100%;
     padding: 3vw;
-    justify-content: baseline;
+    justify-content: right;
     text-align: center;
 }
 
 .sidebar a{
     width: 100%;
     color: rgb(251, 8, 8);
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 7vw;
     font-family:'Special Elite', system-ui;
     text-align: center;
@@ -124,7 +124,7 @@ body {
 }
 
 .body-tips{
-    background-image: url("/assets/images/redcoffeepexels.jpg");
+    background-image: url("../images/");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,6 @@ header{
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
     font-family:'DM Serif Display', serif;
     color:rgb(255, 255, 255);
-    justify-content: inline-flex;
     width: 100%;
     padding-bottom: 5px;
     margin-bottom: 20px;
@@ -264,17 +263,8 @@ a {
     margin-left: 9vw;
 }
 
-.videos-div {
-    justify-content: center;
-    max-width:100%;
-    aspect-ratio: 16/9;
-    max-width: 100%;
-    transform: translate(-50%, -50%);
-    padding-left: 5vw;
-};
-
 .video{
-    padding: 4vw;
+    aspect-ratio: 16 / 9;
 }
 
 object{
@@ -539,7 +529,7 @@ label {
     }
 
     .video{
-        display: inline-flex;
+        display:flex;
     }
 
     .video-main{
@@ -751,7 +741,7 @@ label {
     }
 
     .burger {
-        justify-content:inline-flex;
+        justify-content:right;
         margin: 0;
         position: absolute;
         right: 30px;
@@ -766,7 +756,6 @@ label {
     }
 
     .header{
-        justify-content: inline-flex;
         height: 10vh;
     }
 
@@ -821,13 +810,6 @@ label {
         font-size: 2rem;
     }
 
-    /* Video page styling */
-    .video{
-        justify-content:center;
-        display:flexbox;
-        padding:30px;
-        margin:2vw;
-    }
 
     input[type="submit"] {
         font-size:30px;
@@ -847,6 +829,8 @@ label {
     .hideOnMobile{
         display: none;
     }
+
+
 }
 
 /* Most of smartphones-portrait, 320px to 479px */
@@ -872,7 +856,6 @@ label {
     .welcome{
         font-size: 20px;
     }
-    }
 }
 
 /* Most of smartphones-portrait, 320px to 479px */
@@ -888,4 +871,5 @@ label {
     body{
         width:100%;
     }
+}
 }
