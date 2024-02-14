@@ -65,18 +65,19 @@ nav a:hover{
     position: fixed;
     top:0;
     right:0;
-    height: 100vh;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-    color: rgb(251, 8, 8);
+    color: rgb(255, 255, 255);
     font-family:'Special Elite', system-ui;
+    padding: 5px;
 }
 
 .sidebar li{
@@ -88,7 +89,7 @@ nav a:hover{
 
 .sidebar a{
     width: 100%;
-    color: rgb(251, 8, 8);
+    color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 7vw;
     font-family:'Special Elite', system-ui;
